@@ -16,6 +16,8 @@ public class Character_Manager : MonoBehaviour
         foreach(BodyPart part in bodyParts)
         {
             part.currentSprite = 0;
+            part.color = Color.white;
+            
             GameObject container = this.transform.Find(part.name).gameObject;
             bodyContainers.Add(container);
         }
@@ -28,7 +30,8 @@ public class Character_Manager : MonoBehaviour
         for(int i = 0; i<bodyContainers.Count; i++)
         {
             SpriteRenderer partRenderer = bodyContainers[i].GetComponent<SpriteRenderer>();
-            partRenderer.sprite = bodyParts[i].allSprites[bodyParts[i].currentSprite]; 
+            partRenderer.sprite = bodyParts[i].allSprites[bodyParts[i].currentSprite];
+            partRenderer.color = bodyParts[i].color;
         }
         if (Input.GetKeyDown(KeyCode.Space))
         {
@@ -54,5 +57,10 @@ public class Character_Manager : MonoBehaviour
             part.currentSprite = 0;
         }
 
+    }
+
+    public void changeColor(BodyPart part, Color color)
+    {
+        part.color = color;
     }
 }

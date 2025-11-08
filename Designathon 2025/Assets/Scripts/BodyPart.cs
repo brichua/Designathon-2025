@@ -5,5 +5,6 @@ public class BodyPart : ScriptableObject
 {
     public string bodyPart;
     public Sprite[] allSprites;
-    public int currentSprite; 
+    public int currentSprite;
+    public Color color;
 }
