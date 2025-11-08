@@ -253,13 +253,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7eaa3be72c456e14585c4d1cd1cb0561, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  head: {fileID: 102486875}
-  body: {fileID: 1587603017}
-  legs: {fileID: 489527106}
-  headSprites:
-  - {fileID: 0}
-  bodySprites: []
-  legsSprites: []
+  headContainer: {fileID: 102486875}
+  bodyContainer: {fileID: 1587603017}
+  legsContainer: {fileID: 489527106}
+  bodyContainers: []
+  head: {fileID: 11400000, guid: 6cf667b9ede010a4ea85d16bd6ea9f09, type: 2}
+  body: {fileID: 11400000, guid: a0a15d6a71f62464c957cc02b8e00234, type: 2}
+  legs: {fileID: 11400000, guid: 17be4eb58f197a74784235dc44f1400e, type: 2}
+  bodyParts:
+  - {fileID: 11400000, guid: 6cf667b9ede010a4ea85d16bd6ea9f09, type: 2}
+  - {fileID: 11400000, guid: a0a15d6a71f62464c957cc02b8e00234, type: 2}
+  - {fileID: 11400000, guid: 17be4eb58f197a74784235dc44f1400e, type: 2}
 --- !u!1 &489527106
 GameObject:
   m_ObjectHideFlags: 0

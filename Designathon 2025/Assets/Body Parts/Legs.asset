@@ -10,8 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2a09c44dca0bb2341b707ce6d71d1d36, type: 3}
-  m_Name: Head
+  m_Name: Legs
   m_EditorClassIdentifier: 
-  bodyPart: 
-  allSprites: []
-  currentSprites: 0
+  bodyPart: Legs
+  allSprites:
+  - {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
+  currentSprite: 0
