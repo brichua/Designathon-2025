@@ -37,6 +37,7 @@ public class Questionnaire : MonoBehaviour
     public AudioClip sfxClip;
 
     private int currentQuestionIndex = 0;
+    private Stack<int> questionHistory = new Stack<int>();
     private List<QuestionData> questions = new List<QuestionData>();
     private Dictionary<int, List<int>> selectedAnswers = new Dictionary<int, List<int>>();
 
@@ -228,6 +229,10 @@ public class Questionnaire : MonoBehaviour
 
     void ShowQuestion(int index)
     {
+        // Only push to history if this question isn't already the current top
+        if (questionHistory.Count == 0 || questionHistory.Peek() != index)
+            questionHistory.Push(index);
+
         currentQuestionIndex = index;
         var q = questions[index];
         question.text = q.text;
@@ -248,7 +253,7 @@ public class Questionnaire : MonoBehaviour
             }
         }
 
-        backButton.interactable = index > 0;
+        backButton.interactable = questionHistory.Count > 1; // Enable back if there is a previous question
         nextButton.interactable = HasAnsweredCurrent() && index < questions.Count - 1;
         submitButton.interactable = (index == questions.Count - 1);
         UpdateCharacterIcon(questions[index]);
@@ -297,46 +302,64 @@ public class Questionnaire : MonoBehaviour
     }
 
     void OnNext()
+{
+    if (!HasAnsweredCurrent()) return;
+
+    // Insert follow-ups only if we are on the first question
+    if (currentQuestionIndex == 0)
     {
-        if (!HasAnsweredCurrent()) return;
+        var selectedPainIndices = selectedAnswers[0];
 
-        if (currentQuestionIndex == 0)
+        // Filter out follow-ups already added to avoid duplicates
+        List<string> alreadyAdded = new List<string>();
+        foreach (var q in questions)
         {
-            var selectedPainIndices = selectedAnswers[0];
-            if (selectedPainIndices.Count > 0 && !questions.Exists(q => q.text.Contains("pain in")))
-            {
-                List<QuestionData> followUps = new List<QuestionData>();
-                foreach (int i in selectedPainIndices)
-                {
-                    string fullAnswer = questions[0].answers[i];
-                    if (fullAnswer.Contains("hurts") && fullAnswer.Contains("Yes"))
-                    {
-                        string bodyPart = questions[0].answers[i]
-                        .Replace("Yes, my ", "")
-                        .Replace(" hurts", "");
+            if (q.text.Contains("How does the pain in your"))
+                alreadyAdded.Add(q.text);
+        }
 
-                        followUps.Add(new QuestionData(
-                            $"How does the pain in your {bodyPart} feel on a scale of 1–5?",
-                            new List<string> { "1", "2", "3", "4", "5" },
-                            allowsMultiple: false
-                        ));
-                    }
+        List<QuestionData> followUps = new List<QuestionData>();
+        foreach (int i in selectedPainIndices)
+        {
+            string fullAnswer = questions[0].answers[i];
+            if (fullAnswer.StartsWith("Yes") && fullAnswer.Contains("hurt"))
+            {
+                string bodyPart = fullAnswer.Replace("Yes, my ", "").Replace(" hurts", "");
+                if(fullAnswer.Contains("something")){
+                    bodyPart = fullAnswer.Replace("Yes, ", "").Replace(" hurts", "");
                 }
-                if (followUps.Count > 0) // Only insert if we created valid follow-ups
+                string followUpText = $"How does the pain in your {bodyPart} feel on a scale of 1–5?";
+
+                if (!alreadyAdded.Contains(followUpText))
                 {
-                    questions.InsertRange(1, followUps);
+                    followUps.Add(new QuestionData(
+                        followUpText,
+                        new List<string> { "1", "2", "3", "4", "5" },
+                        allowsMultiple: false
+                    ));
                 }
             }
         }
 
-        if (currentQuestionIndex < questions.Count - 1)
-            ShowQuestion(currentQuestionIndex + 1);
+        if (followUps.Count > 0)
+        {
+            questions.InsertRange(1, followUps);
+        }
     }
 
+    if (currentQuestionIndex < questions.Count - 1)
+        ShowQuestion(currentQuestionIndex + 1);
+}
+
+        
     void OnBack()
     {
-        if (currentQuestionIndex > 0)
-            ShowQuestion(currentQuestionIndex - 1);
+        if (questionHistory.Count > 1)
+        {
+            questionHistory.Pop();
+            int prevIndex = questionHistory.Pop();
+            ShowQuestion(prevIndex);
+        }
     }
 
     public void OnSubmit()
