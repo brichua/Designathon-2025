@@ -2,6 +2,8 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 using TMPro;
+using UnityEngine.EventSystems;
+using NUnit.Framework.Constraints;
 
 public class PetCare : MonoBehaviour
 {
@@ -13,11 +15,15 @@ public class PetCare : MonoBehaviour
     public GameObject character;
     public Transform characterTransform;
     public GameObject tool;
-    public GameObject toolBackground;
+    public Sprite[] toolSprites;
     public TextMeshProUGUI instructions;
-
+    [SerializeField] int toolIndex;
+    [TextArea][SerializeField] string[] toolDescriptions;
+    public GameObject sneeze;
+    public GameObject runnyNose;
     void Start()
     {
+        toolIndex = -1;
     }
 
     void Update()
@@ -72,16 +78,30 @@ public class PetCare : MonoBehaviour
         transform.position = endPosition;
 
         tool.SetActive(true);
-        toolBackground.SetActive(true);
+        
         selectTool();
 
     }
 
     public void selectTool(){
-
+        toolIndex++;
+        if(toolIndex >= toolSprites.Length)
+        {
+            tool.GetComponent<Transform>().position = new Vector3(0, 0, 0);
+            tool.GetComponent<SpriteRenderer>().sprite = null;
+            finishCare();
+            return;
+        }
+        if (toolIndex >= 0)
+        {
+            instructions.text = toolDescriptions[toolIndex];
+        }
+        tool.GetComponent<Transform>().position = new Vector3(0, 0, 0);
+        tool.GetComponent<SpriteRenderer>().sprite = toolSprites[toolIndex];
     }
 
     public void dragObject(){
-
+        Transform toolTransform = tool.GetComponent<Transform>();
+        toolTransform.position = new Vector3(Input.mousePosition.x, Input.mousePosition.y, 0);
     }
 }
