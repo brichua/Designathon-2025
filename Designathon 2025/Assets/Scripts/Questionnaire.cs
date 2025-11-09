@@ -16,11 +16,20 @@ public class Questionnaire : MonoBehaviour
     [Header("Buttons")]
     public Button nextButton;
     public Button backButton;
-    public Button submitButton; // 👈 new
+    public Button submitButton;
 
     [Header("Colors")]
     public Color unselectedColor = Color.white;
     public Color selectedColor = Color.green;
+
+    [Header("Character Display Layers")]
+    public Image headImage;
+    public Image eyesImage;
+    public Image hairImage;
+    public Image bodyImage;
+
+    [Header("Character Data Source")]
+    public Character_Manager characterManager;
 
     private int currentQuestionIndex = 0;
     private List<QuestionData> questions = new List<QuestionData>();
@@ -40,44 +49,72 @@ public class Questionnaire : MonoBehaviour
         submitButton.gameObject.SetActive(false);
     }
 
+    void UpdateCharacterIcon(QuestionData q)
+    {
+        if (characterManager == null) return;
+
+        var headPart = characterManager.GetPart("Head");
+        var eyesPart = characterManager.GetPart("Eyes");
+        var hairPart = characterManager.GetPart("Hair");
+        var bodyPart = characterManager.GetPart("Body");
+
+        if (q.headSprite != null)
+        {
+            headImage.sprite = q.headSprite;
+            headImage.color = headPart != null ? headPart.color : Color.white;
+        }
+
+        if (q.eyesSprite != null)
+        {
+            eyesImage.sprite = q.eyesSprite;
+            eyesImage.color = eyesPart != null ? eyesPart.color : Color.white;
+        }
+
+        if (q.bodySprite != null)
+        {
+            bodyImage.sprite = q.bodySprite;
+            bodyImage.color = bodyPart != null ? bodyPart.color : Color.white;
+        }
+
+        if (q.hairSprites != null && q.hairSprites.Count > 0 && hairPart != null)
+        {
+            int index = Mathf.Clamp(hairPart.currentSprite, 0, q.hairSprites.Count - 1);
+            hairImage.sprite = q.hairSprites[index];
+            hairImage.color = hairPart.color;
+        }
+    }
+
     void InitializeQuestions()
     {
         questions = new List<QuestionData>()
         {
             new QuestionData("Do you feel pain anywhere?",
                 new List<string>{ "Yes, my head hurts", "Yes, my arm hurts", "Yes, my legs hurt", "Yes, my stomach hurts", "Yes, something hurts", "No, I feel fine everywhere" },
-                allowsMultiple:true,
-                image:null),
+                allowsMultiple:true),
 
             new QuestionData("Have you coughed or vomited recently?",
                 new List<string>{ "Yes, I coughed", "Yes, I vomited", "No, I haven't" },
-                allowsMultiple:true,
-                image:null),
+                allowsMultiple:true),
 
             new QuestionData("Does your skin feel itchy?",
                 new List<string>{ "Yes, my skin feels itchy", "No, my skin feels fine" },
-                allowsMultiple:false,
-                image:null),
+                allowsMultiple:false),
 
             new QuestionData("Do you feel hot, tired, dizzy, or uncomfy?",
                 new List<string>{ "Yes, I feel hot", "Yes, I feel tired", "Yes, I feel dizzy", "Yes, I feel uncomfy", "No, I don't feel any of that" },
-                allowsMultiple:true,
-                image:null),
+                allowsMultiple:true),
 
             new QuestionData("Is it hard to hear or see?",
                 new List<string>{ "Yes, it's hard to hear", "Yes, it's hard to see" },
-                allowsMultiple:true,
-                image:null),
+                allowsMultiple:true),
 
             new QuestionData("Do you have a runny or itchy nose or eyes?",
                 new List<string>{ "Yes, I have a runny nose", "Yes, I have an itchy nose", "Yes, I have a runny eye", "Yes, I have an itchy eye", "No, I don't feel any of that" },
-                allowsMultiple:true,
-                image:null),
+                allowsMultiple:true),
 
             new QuestionData("Does it hurt to breathe or walk?",
                 new List<string>{ "Yes, it hurts to breathe", "Yes, it hurts to walk", "No, it doesn't hurt" },
-                allowsMultiple:true,
-                image:null)
+                allowsMultiple:true)
         };
     }
 
@@ -87,13 +124,6 @@ public class Questionnaire : MonoBehaviour
         var q = questions[index];
         question.text = q.text;
 
-        if (questionImage != null)
-        {
-            questionImage.sprite = q.image;
-            questionImage.gameObject.SetActive(q.image != null);
-        }
-
-        // Show only as many answers as exist
         for (int i = 0; i < answerObjects.Count; i++)
         {
             if (i < q.answers.Count)
@@ -112,7 +142,8 @@ public class Questionnaire : MonoBehaviour
 
         backButton.interactable = index > 0;
         nextButton.interactable = HasAnsweredCurrent() && index < questions.Count - 1;
-        submitButton.gameObject.SetActive(index == questions.Count - 1); // 👈 show only at the end
+        submitButton.interactable = (index == questions.Count - 1);
+        UpdateCharacterIcon(questions[index]);
     }
 
     public void OnAnswerClicked(int answerIndex)
@@ -176,8 +207,7 @@ public class Questionnaire : MonoBehaviour
                     followUps.Add(new QuestionData(
                         $"How does the pain in your {bodyPart} feel on a scale of 1–5?",
                         new List<string> { "1", "2", "3", "4", "5" },
-                        allowsMultiple:false,
-                        image:null
+                        allowsMultiple:false
                     ));
                 }
 
@@ -195,7 +225,7 @@ public class Questionnaire : MonoBehaviour
             ShowQuestion(currentQuestionIndex - 1);
     }
 
-    void OnSubmit()
+    public void OnSubmit()
     {
         report = new PatientReport();
 
@@ -286,16 +316,26 @@ public class QuestionData
     public string text;
     public List<string> answers;
     public bool allowsMultiple;
-    public Sprite image;
 
-    public QuestionData(string text, List<string> answers, bool allowsMultiple, Sprite image)
+    [Header("Per-question character art")]
+    public Sprite headSprite;
+    public Sprite eyesSprite;
+    public Sprite bodySprite;
+    public List<Sprite> hairSprites;
+
+    public QuestionData(string text, List<string> answers, bool allowsMultiple,
+                        Sprite head = null, Sprite eyes = null, Sprite body = null, List<Sprite> hairVariants = null)
     {
         this.text = text;
         this.answers = answers;
         this.allowsMultiple = allowsMultiple;
-        this.image = image;
+        this.headSprite = head;
+        this.eyesSprite = eyes;
+        this.bodySprite = body;
+        this.hairSprites = hairVariants ?? new List<Sprite>();
     }
 }
+
 
 [System.Serializable]
 public class PatientReport
