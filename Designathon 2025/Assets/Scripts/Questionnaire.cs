@@ -167,7 +167,7 @@ public class Questionnaire : MonoBehaviour
                 template : Resources.Load<Sprite>("dizzy")),
 
             new QuestionData("Is it hard to hear or see?",
-                new List<string>{ "Yes, it's hard to hear", "Yes, it's hard to see" },
+                new List<string>{ "Yes, it's hard to hear", "Yes, it's hard to see", "No, I can see and hear fine" },
                 allowsMultiple:true,
                 head: Resources.Load<Sprite>("hearing face"),
                 body: Resources.Load<Sprite>("hearing hoodie"),
