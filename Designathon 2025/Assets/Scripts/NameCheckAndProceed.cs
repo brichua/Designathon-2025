@@ -15,6 +15,9 @@ public class NameCheckAndProceed : MonoBehaviour
     public GameObject personNameBox;
     public GameObject character;
     public GameObject nextButton;
+    public GameObject nextButton2;
+    public GameObject petNameInput;
+    public Questionnaire questionnaire;
 
     // --- Method called by the Next Button ---
     public void OnNextButtonClicked()
@@ -48,6 +51,8 @@ public class NameCheckAndProceed : MonoBehaviour
         personNameBox.SetActive(false); // Hide the name input box
         character.SetActive(false);
         nextButton.SetActive(false);
+        nextButton2.SetActive(true);
+        petNameInput.SetActive(true);
 
         Debug.Log($"Name entered: {nameInputField.text}. White Box is now visible.");
     }

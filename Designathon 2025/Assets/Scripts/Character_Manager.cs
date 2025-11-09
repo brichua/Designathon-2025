@@ -77,4 +77,15 @@ public class Character_Manager : MonoBehaviour
             bodyParts[3].currentSprite = 3;
         }
     }
+
+    public BodyPart GetPart(string partName)
+    {
+        foreach (var part in bodyParts)
+        {
+            if (part.bodyPart == partName)
+                return part;
+        }
+        return null;
+    }
+
 }
