@@ -3,7 +3,7 @@ using UnityEngine;
 public class PetManager : MonoBehaviour
 {
     Character_Manager characterManager;
-    public GameObject uiManager;
+    public GameObject questionnaireManager;
     [SerializeField] Questionnaire questionnaire;
     [SerializeField] GameObject sneeze;
     [SerializeField] GameObject runnyNose;
@@ -11,7 +11,7 @@ public class PetManager : MonoBehaviour
     void Start()
     {
         characterManager = GetComponent<Character_Manager>();   
-        questionnaire = uiManager.GetComponent<Questionnaire>();
+        questionnaire = questionnaireManager.GetComponent<Questionnaire>();
 
         PatientReport patientReport = questionnaire.report;
         if (patientReport.hasPain)
@@ -86,7 +86,9 @@ public class PetManager : MonoBehaviour
 
         for(int i = 0; i< characterManager.bodyParts.Length; i++)
         {
-            characterManager.bodyParts[i].color = GetPetColor(patientReport);
+            //characterManager.bodyParts[i].color = GetPetColor(patientReport);
+
+            characterManager.changeColor(characterManager.bodyParts[i], GetPetColor(patientReport));
         }
     }
 

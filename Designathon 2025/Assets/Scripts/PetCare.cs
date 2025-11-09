@@ -30,7 +30,7 @@ public class PetCare : MonoBehaviour
     void Start()
     {
         toolIndex = -1;
-        characterManager = GetComponent<Character_Manager>();
+       
     }
 
     void Update()
