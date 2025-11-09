@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2a09c44dca0bb2341b707ce6d71d1d36, type: 3}
-  m_Name: Body
+  m_Name: Eyes
   m_EditorClassIdentifier: 
-  bodyPart: Body
+  bodyPart: Eyes
   allSprites:
-  - {fileID: 5679688995623458777, guid: fef17f3e8a721a1499ad9d509cb99da1, type: 3}
+  - {fileID: 6883166651137136220, guid: a2e310dea57228f4ab5c45b411caabe7, type: 3}
   currentSprite: 0
-  color: {r: 1, g: 1, b: 1, a: 1}
+  color: {r: 0.5294118, g: 0.5254902, b: 0.5294118, a: 0}
