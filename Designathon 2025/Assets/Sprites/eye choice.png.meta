@@ -1,0 +1,2327 @@
+fileFormatVersion: 2
+guid: 0d5d7e3aabfe7be41896f4fbb48ad11b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7127845602713613288
+    second: eye choice_0
+  - first:
+      213: -517334362878744904
+    second: eye choice_1
+  - first:
+      213: 7363607240633877752
+    second: eye choice_2
+  - first:
+      213: 5935146337116287628
+    second: eye choice_3
+  - first:
+      213: 29148109420336663
+    second: eye choice_4
+  - first:
+      213: 770681731051851962
+    second: eye choice_5
+  - first:
+      213: -253624560857978355
+    second: eye choice_6
+  - first:
+      213: -7570119886473756451
+    second: eye choice_7
+  - first:
+      213: -2747933859729988893
+    second: eye choice_8
+  - first:
+      213: -5706863045903901537
+    second: eye choice_9
+  - first:
+      213: -1338152611708624677
+    second: eye choice_10
+  - first:
+      213: -3030467249898433849
+    second: eye choice_11
+  - first:
+      213: -5443993198792269697
+    second: eye choice_12
+  - first:
+      213: -8933944177911710049
+    second: eye choice_13
+  - first:
+      213: -2835650458222335335
+    second: eye choice_14
+  - first:
+      213: 582954801907023890
+    second: eye choice_15
+  - first:
+      213: -5957382574616866954
+    second: eye choice_16
+  - first:
+      213: -3100045587670249689
+    second: eye choice_17
+  - first:
+      213: 2587031575772292958
+    second: eye choice_18
+  - first:
+      213: 6298143588054421798
+    second: eye choice_19
+  - first:
+      213: -6458250093337053619
+    second: eye choice_20
+  - first:
+      213: -542075198348033199
+    second: eye choice_21
+  - first:
+      213: -1603609968606943581
+    second: eye choice_22
+  - first:
+      213: 7244141055165132553
+    second: eye choice_23
+  - first:
+      213: 5275728121562293439
+    second: eye choice_24
+  - first:
+      213: 7986226373547263509
+    second: eye choice_25
+  - first:
+      213: -2103482846104479221
+    second: eye choice_26
+  - first:
+      213: -7498533251693270335
+    second: eye choice_27
+  - first:
+      213: 39616655558092235
+    second: eye choice_28
+  - first:
+      213: 1080205862272720041
+    second: eye choice_29
+  - first:
+      213: -3449724410943102891
+    second: eye choice_30
+  - first:
+      213: 6025032796662834954
+    second: eye choice_31
+  - first:
+      213: 5801057729362844508
+    second: eye choice_32
+  - first:
+      213: 5164279165521689452
+    second: eye choice_33
+  - first:
+      213: -5854297866237872195
+    second: eye choice_34
+  - first:
+      213: -7749638923586863232
+    second: eye choice_35
+  - first:
+      213: 1629455421847753798
+    second: eye choice_36
+  - first:
+      213: -7458675456676616095
+    second: eye choice_37
+  - first:
+      213: -76552521689948447
+    second: eye choice_38
+  - first:
+      213: -2280080198804263287
+    second: eye choice_39
+  - first:
+      213: 4910906283136210556
+    second: eye choice_40
+  - first:
+      213: -1632648720916790639
+    second: eye choice_41
+  - first:
+      213: 5211254030855900007
+    second: eye choice_42
+  - first:
+      213: 1765989019712221638
+    second: eye choice_43
+  - first:
+      213: -5158641356703415200
+    second: eye choice_44
+  - first:
+      213: 6465469326693242398
+    second: eye choice_45
+  - first:
+      213: -2104743699376623416
+    second: eye choice_46
+  - first:
+      213: -8363076866145922890
+    second: eye choice_47
+  - first:
+      213: -1534443791401619501
+    second: eye choice_48
+  - first:
+      213: 8333780799942670327
+    second: eye choice_49
+  - first:
+      213: 6727739434973988843
+    second: eye choice_50
+  - first:
+      213: 1789397294735958135
+    second: eye choice_51
+  - first:
+      213: 468807045037532543
+    second: eye choice_52
+  - first:
+      213: 2018048592012693642
+    second: eye choice_53
+  - first:
+      213: 4224606394158865076
+    second: eye choice_54
+  - first:
+      213: 4895505372332994871
+    second: eye choice_55
+  - first:
+      213: 1353218617011165060
+    second: eye choice_56
+  - first:
+      213: -6412683154618099342
+    second: eye choice_57
+  - first:
+      213: -8523983849056449923
+    second: eye choice_58
+  - first:
+      213: -8371204061212509926
+    second: eye choice_59
+  - first:
+      213: 943708056746677914
+    second: eye choice_60
+  - first:
+      213: -7371900222665542280
+    second: eye choice_61
+  - first:
+      213: 7526759409295802998
+    second: eye choice_62
+  - first:
+      213: -3494508594126452748
+    second: eye choice_63
+  - first:
+      213: 3805725085953647049
+    second: eye choice_64
+  - first:
+      213: -6722301842887080877
+    second: eye choice_65
+  - first:
+      213: -8927417989664973734
+    second: eye choice_66
+  - first:
+      213: -5139168237121458288
+    second: eye choice_67
+  - first:
+      213: -4706807112572068171
+    second: eye choice_68
+  - first:
+      213: 3655407810161835801
+    second: eye choice_69
+  - first:
+      213: -2559447224602294323
+    second: eye choice_70
+  - first:
+      213: 1234660154728709369
+    second: eye choice_71
+  - first:
+      213: 2845724323643609551
+    second: eye choice_72
+  - first:
+      213: 7327640448492606595
+    second: eye choice_73
+  - first:
+      213: 4513989011640987247
+    second: eye choice_74
+  - first:
+      213: -4982252498131625710
+    second: eye choice_75
+  - first:
+      213: -4793913515189243783
+    second: eye choice_76
+  - first:
+      213: -3528751191962016595
+    second: eye choice_77
+  - first:
+      213: -7963550031018060865
+    second: eye choice_78
+  - first:
+      213: 8477374246642361794
+    second: eye choice_79
+  - first:
+      213: 5493828417569073037
+    second: eye choice_80
+  - first:
+      213: 7632254304383533121
+    second: eye choice_81
+  - first:
+      213: -651913023381984306
+    second: eye choice_82
+  - first:
+      213: 8006639278825185257
+    second: eye choice_83
+  - first:
+      213: 3837113573011990682
+    second: eye choice_84
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: eye choice_0
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 796
+        width: 57
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e3339b8fc13be260800000000000000
+      internalID: 7127845602713613288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_1
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 843
+        width: 60
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b6628e432f02d8f0800000000000000
+      internalID: -517334362878744904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_2
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 770
+        width: 51
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f40a7375c9c03660800000000000000
+      internalID: 7363607240633877752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_3
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 796
+        width: 57
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c82f6c9d520ed5250800000000000000
+      internalID: 5935146337116287628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_4
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 843
+        width: 60
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7169fd31d0e876000800000000000000
+      internalID: 29148109420336663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_5
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 770
+        width: 51
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab09a3e73f202ba00800000000000000
+      internalID: 770681731051851962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_6
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 796
+        width: 57
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0aeebf3ec1fa7cf0800000000000000
+      internalID: -253624560857978355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_7
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 843
+        width: 60
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd08c9b421881f690800000000000000
+      internalID: -7570119886473756451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_8
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 770
+        width: 51
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e2a688b6b06dd9d0800000000000000
+      internalID: -2747933859729988893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_9
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 796
+        width: 57
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9c1817cb462dc0b0800000000000000
+      internalID: -5706863045903901537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_10
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 843
+        width: 60
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd0a8db1a4ded6de0800000000000000
+      internalID: -1338152611708624677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_11
+      rect:
+        serializedVersion: 2
+        x: 1682
+        y: 770
+        width: 51
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c25952a71e91f5d0800000000000000
+      internalID: -3030467249898433849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_12
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 757
+        width: 7
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f70285a770d0374b0800000000000000
+      internalID: -5443993198792269697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_13
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 689
+        width: 65
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9e3760ba11440480800000000000000
+      internalID: -8933944177911710049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_14
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 751
+        width: 106
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99aeb72aeeeb5a8d0800000000000000
+      internalID: -2835650458222335335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_15
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 699
+        width: 83
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 210c6cfbd42171800800000000000000
+      internalID: 582954801907023890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_16
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 734
+        width: 9
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67f0cd8ac10235da0800000000000000
+      internalID: -5957382574616866954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_17
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 757
+        width: 7
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72fc56776fc6af4d0800000000000000
+      internalID: -3100045587670249689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_18
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 688
+        width: 82
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5760a0f28bf6e320800000000000000
+      internalID: 2587031575772292958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_19
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 751
+        width: 106
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 621536e6930876750800000000000000
+      internalID: 6298143588054421798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_20
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 699
+        width: 83
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d46f204e1cfaf56a0800000000000000
+      internalID: -6458250093337053619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_21
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 734
+        width: 9
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1538ae8aa792a78f0800000000000000
+      internalID: -542075198348033199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_22
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 757
+        width: 7
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a668e6da35deb9e0800000000000000
+      internalID: -1603609968606943581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_23
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 688
+        width: 82
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90fe0f798eb588460800000000000000
+      internalID: 7244141055165132553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_24
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 751
+        width: 106
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb4624946c6273940800000000000000
+      internalID: 5275728121562293439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_25
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 699
+        width: 83
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 516042be296c4de60800000000000000
+      internalID: 7986226373547263509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_26
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 734
+        width: 9
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0a90d60f7deec2e0800000000000000
+      internalID: -2103482846104479221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_27
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 757
+        width: 7
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ca2e5c8cbbdfe790800000000000000
+      internalID: -7498533251693270335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_28
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 688
+        width: 82
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc5aab9632fbc8000800000000000000
+      internalID: 39616655558092235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_29
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 751
+        width: 106
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ac5f013289adfe00800000000000000
+      internalID: 1080205862272720041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_30
+      rect:
+        serializedVersion: 2
+        x: 1613
+        y: 699
+        width: 83
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5502eb8fced1020d0800000000000000
+      internalID: -3449724410943102891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_31
+      rect:
+        serializedVersion: 2
+        x: 1724
+        y: 734
+        width: 9
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a07aa2518673d9350800000000000000
+      internalID: 6025032796662834954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_32
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 530
+        width: 112
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5bd430054f718050800000000000000
+      internalID: 5801057729362844508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_33
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 532
+        width: 76
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6bfedd1a843ba740800000000000000
+      internalID: 5164279165521689452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_34
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 530
+        width: 112
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db77099ab1b51cea0800000000000000
+      internalID: -5854297866237872195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_35
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 532
+        width: 76
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08f70165570c37490800000000000000
+      internalID: -7749638923586863232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_36
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 530
+        width: 112
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 644d19ca21dfc9610800000000000000
+      internalID: 1629455421847753798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_37
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 532
+        width: 76
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 168addd90367d7890800000000000000
+      internalID: -7458675456676616095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_38
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 598
+        width: 141
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ee920a13e700fef0800000000000000
+      internalID: -76552521689948447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_39
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 695
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98eaedab3278b50e0800000000000000
+      internalID: -2280080198804263287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_40
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 536
+        width: 58
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c765193de3b072440800000000000000
+      internalID: 4910906283136210556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_41
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 689
+        width: 76
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19242c273aaa759e0800000000000000
+      internalID: -1632648720916790639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_42
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 689
+        width: 76
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76b0d7f3ee7125840800000000000000
+      internalID: 5211254030855900007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_43
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 689
+        width: 76
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c1ff2528ad028810800000000000000
+      internalID: 1765989019712221638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_44
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 616
+        width: 42
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 064cd0a8403d868b0800000000000000
+      internalID: -5158641356703415200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_45
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 598
+        width: 57
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e161cbbd816f9b950800000000000000
+      internalID: 6465469326693242398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_46
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 645
+        width: 60
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c03a6fb1c27ac2e0800000000000000
+      internalID: -2104743699376623416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_47
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 572
+        width: 51
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b0d51456e160fb80800000000000000
+      internalID: -8363076866145922890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_48
+      rect:
+        serializedVersion: 2
+        x: 1333
+        y: 598
+        width: 57
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dfe3b5608f84bae0800000000000000
+      internalID: -1534443791401619501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_49
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 645
+        width: 60
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f7bd88bb7987a370800000000000000
+      internalID: 8333780799942670327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_50
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 572
+        width: 51
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be7030bfe5bbd5d50800000000000000
+      internalID: 6727739434973988843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_51
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 598
+        width: 57
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77028c2eb5735d810800000000000000
+      internalID: 1789397294735958135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_52
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 645
+        width: 60
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f75a9ab0689818600800000000000000
+      internalID: 468807045037532543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_53
+      rect:
+        serializedVersion: 2
+        x: 1675
+        y: 572
+        width: 51
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a80d46a908c810c10800000000000000
+      internalID: 2018048592012693642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_54
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 559
+        width: 7
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4badeafe121d0aa30800000000000000
+      internalID: 4224606394158865076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_55
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 491
+        width: 65
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 731bce9d23450f340800000000000000
+      internalID: 4895505372332994871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_56
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 553
+        width: 106
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 487556a992997c210800000000000000
+      internalID: 1353218617011165060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_57
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 501
+        width: 83
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2795bdf85a29107a0800000000000000
+      internalID: -6412683154618099342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_58
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 559
+        width: 7
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7ac2dde9d9b4b980800000000000000
+      internalID: -8523983849056449923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_59
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 490
+        width: 82
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a19fe15424283db80800000000000000
+      internalID: -8371204061212509926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_60
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 553
+        width: 106
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a965f064a79b81d00800000000000000
+      internalID: 943708056746677914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_61
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 501
+        width: 83
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 875b5643ecfb1b990800000000000000
+      internalID: -7371900222665542280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_62
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 536
+        width: 9
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 672c7e4edcb647860800000000000000
+      internalID: 7526759409295802998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_63
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 559
+        width: 7
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f70b86c2f2018fc0800000000000000
+      internalID: -3494508594126452748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_64
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 490
+        width: 82
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c16f055dc6a0d430800000000000000
+      internalID: 3805725085953647049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_65
+      rect:
+        serializedVersion: 2
+        x: 1349
+        y: 553
+        width: 106
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35403c5171695b2a0800000000000000
+      internalID: -6722301842887080877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_66
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 501
+        width: 83
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5c569c43a07b1480800000000000000
+      internalID: -8927417989664973734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_67
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 536
+        width: 9
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09fa76187b10ea8b0800000000000000
+      internalID: -5139168237121458288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_68
+      rect:
+        serializedVersion: 2
+        x: 1556
+        y: 559
+        width: 7
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5be1cdc6edf0eaeb0800000000000000
+      internalID: -4706807112572068171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_69
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 490
+        width: 82
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91f72e1490e9ab230800000000000000
+      internalID: 3655407810161835801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_70
+      rect:
+        serializedVersion: 2
+        x: 1576
+        y: 553
+        width: 106
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc7883c4f440b7cd0800000000000000
+      internalID: -2559447224602294323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_71
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 501
+        width: 83
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fcfee48ed4622110800000000000000
+      internalID: 1234660154728709369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_72
+      rect:
+        serializedVersion: 2
+        x: 1717
+        y: 536
+        width: 9
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc1577fe13b0e7720800000000000000
+      internalID: 2845724323643609551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_73
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 332
+        width: 112
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3849f261a2201b560800000000000000
+      internalID: 7327640448492606595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_74
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 334
+        width: 76
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6ea0e60719e4ae30800000000000000
+      internalID: 4513989011640987247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_75
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 332
+        width: 112
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 219df8300cb7bdab0800000000000000
+      internalID: -4982252498131625710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_76
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 334
+        width: 76
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9707333ae09987db0800000000000000
+      internalID: -4793913515189243783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_77
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 332
+        width: 112
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da42e5eac7b570fc0800000000000000
+      internalID: -3528751191962016595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_78
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 334
+        width: 76
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb31e128079cb7190800000000000000
+      internalID: -7963550031018060865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_79
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 332
+        width: 112
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c5a92756fea5a570800000000000000
+      internalID: 8477374246642361794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_80
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 497
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d87a62696dffd3c40800000000000000
+      internalID: 5493828417569073037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_81
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 334
+        width: 76
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1400a383ad63be960800000000000000
+      internalID: 7632254304383533121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_82
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 491
+        width: 76
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecbadd82f80f3f6f0800000000000000
+      internalID: -651913023381984306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_83
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 491
+        width: 76
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ef901bc00c4d1f60800000000000000
+      internalID: 8006639278825185257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye choice_84
+      rect:
+        serializedVersion: 2
+        x: 1643
+        y: 491
+        width: 76
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a98a53af67a204530800000000000000
+      internalID: 3837113573011990682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      eye choice_0: 7127845602713613288
+      eye choice_1: -517334362878744904
+      eye choice_10: -1338152611708624677
+      eye choice_11: -3030467249898433849
+      eye choice_12: -5443993198792269697
+      eye choice_13: -8933944177911710049
+      eye choice_14: -2835650458222335335
+      eye choice_15: 582954801907023890
+      eye choice_16: -5957382574616866954
+      eye choice_17: -3100045587670249689
+      eye choice_18: 2587031575772292958
+      eye choice_19: 6298143588054421798
+      eye choice_2: 7363607240633877752
+      eye choice_20: -6458250093337053619
+      eye choice_21: -542075198348033199
+      eye choice_22: -1603609968606943581
+      eye choice_23: 7244141055165132553
+      eye choice_24: 5275728121562293439
+      eye choice_25: 7986226373547263509
+      eye choice_26: -2103482846104479221
+      eye choice_27: -7498533251693270335
+      eye choice_28: 39616655558092235
+      eye choice_29: 1080205862272720041
+      eye choice_3: 5935146337116287628
+      eye choice_30: -3449724410943102891
+      eye choice_31: 6025032796662834954
+      eye choice_32: 5801057729362844508
+      eye choice_33: 5164279165521689452
+      eye choice_34: -5854297866237872195
+      eye choice_35: -7749638923586863232
+      eye choice_36: 1629455421847753798
+      eye choice_37: -7458675456676616095
+      eye choice_38: -76552521689948447
+      eye choice_39: -2280080198804263287
+      eye choice_4: 29148109420336663
+      eye choice_40: 4910906283136210556
+      eye choice_41: -1632648720916790639
+      eye choice_42: 5211254030855900007
+      eye choice_43: 1765989019712221638
+      eye choice_44: -5158641356703415200
+      eye choice_45: 6465469326693242398
+      eye choice_46: -2104743699376623416
+      eye choice_47: -8363076866145922890
+      eye choice_48: -1534443791401619501
+      eye choice_49: 8333780799942670327
+      eye choice_5: 770681731051851962
+      eye choice_50: 6727739434973988843
+      eye choice_51: 1789397294735958135
+      eye choice_52: 468807045037532543
+      eye choice_53: 2018048592012693642
+      eye choice_54: 4224606394158865076
+      eye choice_55: 4895505372332994871
+      eye choice_56: 1353218617011165060
+      eye choice_57: -6412683154618099342
+      eye choice_58: -8523983849056449923
+      eye choice_59: -8371204061212509926
+      eye choice_6: -253624560857978355
+      eye choice_60: 943708056746677914
+      eye choice_61: -7371900222665542280
+      eye choice_62: 7526759409295802998
+      eye choice_63: -3494508594126452748
+      eye choice_64: 3805725085953647049
+      eye choice_65: -6722301842887080877
+      eye choice_66: -8927417989664973734
+      eye choice_67: -5139168237121458288
+      eye choice_68: -4706807112572068171
+      eye choice_69: 3655407810161835801
+      eye choice_7: -7570119886473756451
+      eye choice_70: -2559447224602294323
+      eye choice_71: 1234660154728709369
+      eye choice_72: 2845724323643609551
+      eye choice_73: 7327640448492606595
+      eye choice_74: 4513989011640987247
+      eye choice_75: -4982252498131625710
+      eye choice_76: -4793913515189243783
+      eye choice_77: -3528751191962016595
+      eye choice_78: -7963550031018060865
+      eye choice_79: 8477374246642361794
+      eye choice_8: -2747933859729988893
+      eye choice_80: 5493828417569073037
+      eye choice_81: 7632254304383533121
+      eye choice_82: -651913023381984306
+      eye choice_83: 8006639278825185257
+      eye choice_84: 3837113573011990682
+      eye choice_9: -5706863045903901537
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
