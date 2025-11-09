@@ -14,7 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bodyPart: Body
   allSprites:
-  - {fileID: -9095717837082945937, guid: bd3cb4af8406d4436a2ae8c2aafe1f8d, type: 3}
-  - {fileID: 21300000, guid: 5d52b20f865aff242bfcb08c3b6f61a5, type: 3}
+  - {fileID: 5679688995623458777, guid: fef17f3e8a721a1499ad9d509cb99da1, type: 3}
   currentSprite: 0
   color: {r: 1, g: 1, b: 1, a: 1}
