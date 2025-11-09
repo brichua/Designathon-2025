@@ -1,19 +1,13 @@
 fileFormatVersion: 2
-guid: f9cbfa5531d319b42af17bec8dff3640
+guid: a2e310dea57228f4ab5c45b411caabe7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1157866332877721467
-    second: hair girl 1_0
+      213: 6883166651137136220
+    second: eyes_color_0
   - first:
-      213: 8437643038482988528
-    second: hair girl 1_1
-  - first:
-      213: 3991915044101459480
-    second: hair girl 1_2
-  - first:
-      213: 7594660616504392797
-    second: hair girl 1_3
+      213: 5621827005849375991
+    second: eyes_color_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -122,7 +116,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: hair girl 1_0
+      name: eyes_color_0
       rect:
         serializedVersion: 2
         x: 0
@@ -137,20 +131,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b7f8f8c8b41911010800000000000000
-      internalID: 1157866332877721467
+      spriteID: c5618d2c99be58f50800000000000000
+      internalID: 6883166651137136220
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hair girl 1_1
+      name: eyes_color_1
       rect:
         serializedVersion: 2
-        x: 170
-        y: 453
-        width: 8
-        height: 9
+        x: 440
+        y: 550
+        width: 76
+        height: 89
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -159,52 +153,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0fd735293a7881570800000000000000
-      internalID: 8437643038482988528
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: hair girl 1_2
-      rect:
-        serializedVersion: 2
-        x: 207
-        y: 393
-        width: 8
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 81e84312591266730800000000000000
-      internalID: 3991915044101459480
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: hair girl 1_3
-      rect:
-        serializedVersion: 2
-        x: 212
-        y: 386
-        width: 37
-        height: 57
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d5cb46ca797a56960800000000000000
-      internalID: 7594660616504392797
+      spriteID: 7f4995840edb40e40800000000000000
+      internalID: 5621827005849375991
       vertices: []
       indices: 
       edges: []
@@ -213,7 +163,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5fa179a16fccc474e81e91d4fde7ba23
+    spriteID: eb30aa77bdb92f6448156d27cbf706bf
     internalID: 0
     vertices: []
     indices: 
@@ -223,10 +173,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      hair girl 1_0: 1157866332877721467
-      hair girl 1_1: 8437643038482988528
-      hair girl 1_2: 3991915044101459480
-      hair girl 1_3: 7594660616504392797
+      eyes_color_0: 6883166651137136220
+      eyes_color_1: 5621827005849375991
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

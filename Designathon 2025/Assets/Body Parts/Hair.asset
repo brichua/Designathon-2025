@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a09c44dca0bb2341b707ce6d71d1d36, type: 3}
+  m_Name: Hair
+  m_EditorClassIdentifier: 
+  bodyPart: Hair
+  allSprites:
+  - {fileID: 6250723990187594156, guid: b83fca3967486824fa5be9beb1de5806, type: 3}
+  - {fileID: -8984299335090780856, guid: 9d8afdf2a8224bb4ea1778141a4f5ccd, type: 3}
+  - {fileID: 7517887420141037675, guid: 1b2d0bc2c1536c7479f2ec8784099302, type: 3}
+  - {fileID: 1157866332877721467, guid: f9cbfa5531d319b42af17bec8dff3640, type: 3}
+  - {fileID: -6419814330404258038, guid: 7396005910688f14ebe1083af6bbb7a9, type: 3}
+  - {fileID: 8961728511413943735, guid: 324032a6817d68245add1eaa607354d6, type: 3}
+  - {fileID: 67195400984536643, guid: b34fee1117d0fe543a29644f23a4157b, type: 3}
+  currentSprite: 0
+  color: {r: 0.9960785, g: 0.9960785, b: 0.9960785, a: 0}

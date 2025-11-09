@@ -1,19 +1,25 @@
 fileFormatVersion: 2
-guid: f9cbfa5531d319b42af17bec8dff3640
+guid: c8e2fde6106565747bdb1b63535fa6e7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1157866332877721467
-    second: hair girl 1_0
+      213: 2782954237938814406
+    second: hoodie choice_0
   - first:
-      213: 8437643038482988528
-    second: hair girl 1_1
+      213: -766326801033887409
+    second: hoodie choice_1
   - first:
-      213: 3991915044101459480
-    second: hair girl 1_2
+      213: 1453259918419384335
+    second: hoodie choice_2
   - first:
-      213: 7594660616504392797
-    second: hair girl 1_3
+      213: 3084225546530895517
+    second: hoodie choice_3
+  - first:
+      213: 6868014649024368363
+    second: hoodie choice_4
+  - first:
+      213: -6778035168979806433
+    second: hoodie choice_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -105,106 +111,137 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: hair girl 1_0
+      name: hoodie choice_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1920
-        height: 1080
+        x: 849
+        y: 677
+        width: 234
+        height: 167
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b7f8f8c8b41911010800000000000000
-      internalID: 1157866332877721467
+      spriteID: 6cdc28a722a0f9620800000000000000
+      internalID: 2782954237938814406
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hair girl 1_1
+      name: hoodie choice_1
       rect:
         serializedVersion: 2
-        x: 170
-        y: 453
-        width: 8
-        height: 9
+        x: 1169
+        y: 678
+        width: 234
+        height: 167
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0fd735293a7881570800000000000000
-      internalID: 8437643038482988528
+      spriteID: f41838aa5d57d55f0800000000000000
+      internalID: -766326801033887409
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hair girl 1_2
+      name: hoodie choice_2
       rect:
         serializedVersion: 2
-        x: 207
-        y: 393
-        width: 8
-        height: 7
+        x: 1502
+        y: 676
+        width: 234
+        height: 167
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 81e84312591266730800000000000000
-      internalID: 3991915044101459480
+      spriteID: f0853b332340b2410800000000000000
+      internalID: 1453259918419384335
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hair girl 1_3
+      name: hoodie choice_3
       rect:
         serializedVersion: 2
-        x: 212
-        y: 386
-        width: 37
-        height: 57
+        x: 848
+        y: 450
+        width: 234
+        height: 167
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d5cb46ca797a56960800000000000000
-      internalID: 7594660616504392797
+      spriteID: d96b82c2bce5dca20800000000000000
+      internalID: 3084225546530895517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoodie choice_4
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 451
+        width: 234
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beec64b5fe6105f50800000000000000
+      internalID: 6868014649024368363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoodie choice_5
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 449
+        width: 234
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f179ad5ece49fe1a0800000000000000
+      internalID: -6778035168979806433
       vertices: []
       indices: 
       edges: []
@@ -213,7 +250,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5fa179a16fccc474e81e91d4fde7ba23
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -223,10 +260,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      hair girl 1_0: 1157866332877721467
-      hair girl 1_1: 8437643038482988528
-      hair girl 1_2: 3991915044101459480
-      hair girl 1_3: 7594660616504392797
+      hoodie choice_0: 2782954237938814406
+      hoodie choice_1: -766326801033887409
+      hoodie choice_2: 1453259918419384335
+      hoodie choice_3: 3084225546530895517
+      hoodie choice_4: 6868014649024368363
+      hoodie choice_5: -6778035168979806433
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
