@@ -31,6 +31,7 @@ public class Questionnaire : MonoBehaviour
 
     [Header("Character Data Source")]
     public Character_Manager characterManager;
+    public NameCheckAndProceed nameManager;
 
     private int currentQuestionIndex = 0;
     private List<QuestionData> questions = new List<QuestionData>();
@@ -415,8 +416,11 @@ public class Questionnaire : MonoBehaviour
             }
         }
 
-        Debug.Log("✅ Patient report submitted!");
         Debug.Log(JsonUtility.ToJson(report, true));
+        string patientName = nameManager.nameInputField.text;
+        bool isMale = characterManager.isMale;
+
+        PatientDataUploader.UploadPatientData(patientName, report, isMale);
     }
 }
 

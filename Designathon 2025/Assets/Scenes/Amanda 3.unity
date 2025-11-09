@@ -1373,6 +1373,7 @@ MonoBehaviour:
   hairImage: {fileID: 1354327580}
   bodyImage: {fileID: 1558941001}
   characterManager: {fileID: 841653952}
+  nameManager: {fileID: 954941178}
   report:
     hasPain: 0
     painHead: 0
