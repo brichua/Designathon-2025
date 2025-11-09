@@ -33,6 +33,9 @@ public class Questionnaire : MonoBehaviour
     public Character_Manager characterManager;
     public NameCheckAndProceed nameManager;
 
+    public AudioSource audioSource;
+    public AudioClip sfxClip;
+
     private int currentQuestionIndex = 0;
     private List<QuestionData> questions = new List<QuestionData>();
     private Dictionary<int, List<int>> selectedAnswers = new Dictionary<int, List<int>>();
@@ -420,6 +423,10 @@ public class Questionnaire : MonoBehaviour
         string patientName = nameManager.nameInputField.text;
         bool isMale = characterManager.isMale;
 
+        if (audioSource != null && sfxClip != null)
+            {
+                audioSource.PlayOneShot(sfxClip);
+            }
         PatientDataUploader.UploadPatientData(patientName, report, isMale);
     }
     

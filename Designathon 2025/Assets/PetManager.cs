@@ -73,7 +73,7 @@ public class PetManager : MonoBehaviour
 
         if (patientReport.hasCoughed)
         {
-            sneeze.SetActive(true);
+            // sneeze.SetActive(true);
         }
 
         if (patientReport.hardToSee)
@@ -158,7 +158,7 @@ public class PetManager : MonoBehaviour
 
         if (patientReport.hasCoughed)
         {
-            sneeze.SetActive(true);
+            // sneeze.SetActive(true);
         }
 
         if (patientReport.hardToSee)
@@ -206,7 +206,6 @@ public class PetManager : MonoBehaviour
         if (report.hasPain)
             return new Color(1f, 0.42f, 0.42f); // soft red
 
-        // Default: healthy green
-        return new Color(0.49f, 0.99f, 0f); // lawn green
+        return new Color(0.96f, 0.91f, 0.86f);
     }
 }

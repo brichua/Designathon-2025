@@ -43,12 +43,28 @@ public class PetCare : MonoBehaviour
     public void finishCare(){
 
         PatientReport patientReport = questionnaire.report;
+        patientReport.hasCoughed = false;
         patientReport.hasPain = false;
+        patientReport.painStomach = false;
         patientReport.feelUncomfortable = false;
         patientReport.hurtBreathe = false;
         patientReport.hurtWalk = false;
         patientReport.hasVomited = false;
         patientReport.feelDizzy = false;
+        patientReport.itchyEyes = false;
+        patientReport.itchyNose = false;
+        patientReport.hardToHear = false;
+        patientReport.feelTired = false;
+        patientReport.skinItchy = false;
+        patientReport.painHead = false;
+        patientReport.runnyNose = false;
+        patientReport.painLegs = false;
+        patientReport.painArm = false;
+        patientReport.painStomach = false;
+        patientReport.hardToSee = false;
+        patientReport.feelHot = false;
+        patientReport.painOther = false;
+        patientReport.runnyEyes = false;
         sneeze.SetActive(false);
         runnyNose.SetActive(false);
         instructions.text = "Your pet's feeling a lot better and soon a doctor will help you feel better too!";
@@ -57,7 +73,6 @@ public class PetCare : MonoBehaviour
     }
 
     public void startCare(){
-        petManager.nextButton();
         StartCoroutine(eggHatch());
     }
 
@@ -79,8 +94,8 @@ public class PetCare : MonoBehaviour
         character.SetActive(true);
         pet.SetActive(true);
         
-        StartCoroutine(moveToPosition(characterTransform, new Vector3(-1, 0, 0), 1));
-        StartCoroutine(moveToPosition(petTransform, new Vector3(6, 2, 0), 1));
+        StartCoroutine(moveToPosition(characterTransform, new Vector3(-1, -1, 0), 1));
+        StartCoroutine(moveToPosition(petTransform, new Vector3(6, -0.75f, 0), 1));
         selectTool();
     }
 
@@ -102,7 +117,7 @@ public class PetCare : MonoBehaviour
         tool.SetActive(true);
         speechBubble.SetActive(true);
         instructionObj.SetActive(true);
-        instructions.text = "Let's help your pet feel better!";
+        instructions.text = toolDescriptions[0];
         
         
 

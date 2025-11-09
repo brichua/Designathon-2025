@@ -1,10 +1,15 @@
 using UnityEngine;
+using System.Collections;
 
 public class DraggableObject : MonoBehaviour
 {
     public bool overPet = false;
     GameObject petCareManager;
+    public AudioSource audioSource;
+    public AudioClip sfxClip;
     PetCare petCare;
+    public GameObject floatingImagePrefab;
+    public Transform spawnParent;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -37,6 +42,16 @@ public class DraggableObject : MonoBehaviour
         {
             petCare.selectTool();
             overPet = false;
+
+            if (audioSource != null && sfxClip != null)
+            {
+                audioSource.PlayOneShot(sfxClip);
+            }
+
+            if (floatingImagePrefab != null)
+            {
+                StartCoroutine(SpawnAndFloatImage());
+            }
         }
     }
 
@@ -57,4 +72,36 @@ public class DraggableObject : MonoBehaviour
         }
     }
 
+    private IEnumerator SpawnAndFloatImage()
+    {
+        // Spawn the image
+        GameObject imageObj = Instantiate(floatingImagePrefab, spawnParent);
+        RectTransform rt = imageObj.GetComponent<RectTransform>();
+        CanvasGroup cg = imageObj.GetComponent<CanvasGroup>();
+
+        if (cg == null)
+            cg = imageObj.AddComponent<CanvasGroup>();
+
+        rt.localPosition = new Vector3(145, -14, 0);
+        cg.alpha = 1f;
+
+        float duration = 1f;
+        float elapsed = 0f;
+        Vector3 startPos = rt.localPosition;
+        Vector3 endPos = startPos + new Vector3(0, 100, 0);
+
+        while (elapsed < duration)
+        {
+            elapsed += Time.deltaTime;
+            float t = elapsed / duration;
+
+            rt.localPosition = Vector3.Lerp(startPos, endPos, t);
+            cg.alpha = Mathf.Lerp(1f, 0f, t);
+
+            yield return null;
+        }
+
+        cg.alpha = 0f;
+        Destroy(imageObj);
+    }
 }

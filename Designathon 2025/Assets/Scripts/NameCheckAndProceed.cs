@@ -18,6 +18,7 @@ public class NameCheckAndProceed : MonoBehaviour
     public GameObject nextButton2;
     public GameObject petNameInput;
     public Questionnaire questionnaire;
+    public GameObject introText;
 
     // --- Method called by the Next Button ---
     public void OnNextButtonClicked()
@@ -37,7 +38,7 @@ public class NameCheckAndProceed : MonoBehaviour
             // Show an error message to the user
             if (errorMessageText != null) 
             {    
-                errorMessageText.text = "Please enter a valid character name.";
+                errorMessageText.text = "Please enter your name first :)";
             }
 
             return; // Stop execution if the name is empty
@@ -53,6 +54,7 @@ public class NameCheckAndProceed : MonoBehaviour
         nextButton.SetActive(false);
         nextButton2.SetActive(true);
         petNameInput.SetActive(true);
+        introText.SetActive(false);
         questionnaire.UpdateCharacterIcon(new QuestionData("Do you feel pain anywhere?",
                 new List<string>{ "Yes, my head hurts", "Yes, my arm hurts", "Yes, my legs hurt", "Yes, my stomach hurts", "Yes, something hurts", "No, I feel fine everywhere" },
                 allowsMultiple:true,
