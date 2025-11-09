@@ -23,6 +23,7 @@ public class Questionnaire : MonoBehaviour
     public Color selectedColor = Color.green;
 
     [Header("Character Display Layers")]
+    public Image template;
     public Image headImage;
     public Image eyesImage;
     public Image hairImage;
@@ -57,6 +58,7 @@ public class Questionnaire : MonoBehaviour
         var eyesPart = characterManager.GetPart("Eyes");
         var hairPart = characterManager.GetPart("Hair");
         var bodyPart = characterManager.GetPart("Body");
+        Debug.Log(bodyPart);
 
         if (q.headSprite != null)
         {
@@ -82,6 +84,10 @@ public class Questionnaire : MonoBehaviour
             hairImage.sprite = q.hairSprites[index];
             hairImage.color = hairPart.color;
         }
+
+        if(q.template != null){
+            template.sprite = q.template;
+        }
     }
 
     void InitializeQuestions()
@@ -90,31 +96,129 @@ public class Questionnaire : MonoBehaviour
         {
             new QuestionData("Do you feel pain anywhere?",
                 new List<string>{ "Yes, my head hurts", "Yes, my arm hurts", "Yes, my legs hurt", "Yes, my stomach hurts", "Yes, something hurts", "No, I feel fine everywhere" },
-                allowsMultiple:true),
+                allowsMultiple:true,
+                head: Resources.Load<Sprite>("dizzy face"),
+                body: Resources.Load<Sprite>("dizzy hoodie"),
+                eyes: Resources.Load<Sprite>("transparent"),
+                hairVariants: new List<Sprite>
+                {
+                    Resources.Load<Sprite>("dizzy hair 7"),
+                    Resources.Load<Sprite>("dizzy hair 6"),
+                    Resources.Load<Sprite>("dizzy hair 5"),
+                    Resources.Load<Sprite>("dizzy hair 4"),
+                    Resources.Load<Sprite>("dizzy hair 3"),
+                    Resources.Load<Sprite>("dizzy hair 2"),
+                    Resources.Load<Sprite>("dizzy hair 1"),
+                },
+                template : Resources.Load<Sprite>("dizzy")),
 
             new QuestionData("Have you coughed or vomited recently?",
                 new List<string>{ "Yes, I coughed", "Yes, I vomited", "No, I haven't" },
-                allowsMultiple:true),
+                allowsMultiple:true,
+                head: Resources.Load<Sprite>("nausea face"),
+                body: Resources.Load<Sprite>("nausea hoodie"),
+                eyes: Resources.Load<Sprite>("transparent"),
+                hairVariants: new List<Sprite>
+                {
+                    Resources.Load<Sprite>("nausea hair 7"),
+                    Resources.Load<Sprite>("nausea hair 6"),
+                    Resources.Load<Sprite>("nausea hair 5"),
+                    Resources.Load<Sprite>("nausea hair 4"),
+                    Resources.Load<Sprite>("nausea hair 3"),
+                    Resources.Load<Sprite>("nausea hair 2"),
+                    Resources.Load<Sprite>("nausea hair 1"),
+                },
+                template : Resources.Load<Sprite>("nausea")),
 
             new QuestionData("Does your skin feel itchy?",
                 new List<string>{ "Yes, my skin feels itchy", "No, my skin feels fine" },
-                allowsMultiple:false),
+                allowsMultiple:false,
+                head: Resources.Load<Sprite>("rash face"),
+                body: Resources.Load<Sprite>("rash hoodie"),
+                eyes: Resources.Load<Sprite>("rash eye"),
+                hairVariants: new List<Sprite>
+                {
+                    Resources.Load<Sprite>("rash hair 7"),
+                    Resources.Load<Sprite>("rash hair 6"),
+                    Resources.Load<Sprite>("rash hair 5"),
+                    Resources.Load<Sprite>("rash hair 4"),
+                    Resources.Load<Sprite>("rash hair 3"),
+                    Resources.Load<Sprite>("rash hair 2"),
+                    Resources.Load<Sprite>("rash hair 1"),
+                },
+                template : Resources.Load<Sprite>("rash")),
 
             new QuestionData("Do you feel hot, tired, dizzy, or uncomfy?",
                 new List<string>{ "Yes, I feel hot", "Yes, I feel tired", "Yes, I feel dizzy", "Yes, I feel uncomfy", "No, I don't feel any of that" },
-                allowsMultiple:true),
+                allowsMultiple:true,
+                head: Resources.Load<Sprite>("dizzy face"),
+                body: Resources.Load<Sprite>("dizzy hoodie"),
+                eyes: Resources.Load<Sprite>("dizzy eye"),
+                hairVariants: new List<Sprite>
+                {
+                    Resources.Load<Sprite>("dizzy hair 7"),
+                    Resources.Load<Sprite>("dizzy hair 6"),
+                    Resources.Load<Sprite>("dizzy hair 5"),
+                    Resources.Load<Sprite>("dizzy hair 4"),
+                    Resources.Load<Sprite>("dizzy hair 3"),
+                    Resources.Load<Sprite>("dizzy hair 2"),
+                    Resources.Load<Sprite>("dizzy hair 1"),
+                },
+                template : Resources.Load<Sprite>("dizzy")),
 
             new QuestionData("Is it hard to hear or see?",
                 new List<string>{ "Yes, it's hard to hear", "Yes, it's hard to see" },
-                allowsMultiple:true),
+                allowsMultiple:true,
+                head: Resources.Load<Sprite>("hearing face"),
+                body: Resources.Load<Sprite>("hearing hoodie"),
+                eyes: Resources.Load<Sprite>("hearing eye"),
+                hairVariants: new List<Sprite>
+                {
+                    Resources.Load<Sprite>("hearing hair 7"),
+                    Resources.Load<Sprite>("hearing hair 6"),
+                    Resources.Load<Sprite>("hearing hair 5"),
+                    Resources.Load<Sprite>("hearing hair 4"),
+                    Resources.Load<Sprite>("hearing hair 3"),
+                    Resources.Load<Sprite>("hearing hair 2"),
+                    Resources.Load<Sprite>("hearing hair 1"),
+                },
+                template : Resources.Load<Sprite>("hearing")),
 
             new QuestionData("Do you have a runny or itchy nose or eyes?",
                 new List<string>{ "Yes, I have a runny nose", "Yes, I have an itchy nose", "Yes, I have a runny eye", "Yes, I have an itchy eye", "No, I don't feel any of that" },
-                allowsMultiple:true),
+                allowsMultiple:true,
+                head: Resources.Load<Sprite>("runny nose face"),
+                body: Resources.Load<Sprite>("runny nose hoodie"),
+                eyes: Resources.Load<Sprite>("runny nose eye"),
+                hairVariants: new List<Sprite>
+                {
+                    Resources.Load<Sprite>("runny nose hair 7"),
+                    Resources.Load<Sprite>("runny nose hair 6"),
+                    Resources.Load<Sprite>("runny nose hair 5"),
+                    Resources.Load<Sprite>("runny nose hair 4"),
+                    Resources.Load<Sprite>("runny nose hair 3"),
+                    Resources.Load<Sprite>("runny nose hair 2"),
+                    Resources.Load<Sprite>("runny nose hair 1"),
+                },
+                template : Resources.Load<Sprite>("runny nose")),
 
             new QuestionData("Does it hurt to breathe or walk?",
                 new List<string>{ "Yes, it hurts to breathe", "Yes, it hurts to walk", "No, it doesn't hurt" },
-                allowsMultiple:true)
+                allowsMultiple:true,
+                head: Resources.Load<Sprite>("nausea face"),
+                body: Resources.Load<Sprite>("nausea hoodie"),
+                eyes: Resources.Load<Sprite>("transparent"),
+                hairVariants: new List<Sprite>
+                {
+                    Resources.Load<Sprite>("nausea hair 7"),
+                    Resources.Load<Sprite>("nausea hair 6"),
+                    Resources.Load<Sprite>("nausea hair 5"),
+                    Resources.Load<Sprite>("nausea hair 4"),
+                    Resources.Load<Sprite>("nausea hair 3"),
+                    Resources.Load<Sprite>("nausea hair 2"),
+                    Resources.Load<Sprite>("nausea hair 1"),
+                },
+                template : Resources.Load<Sprite>("nausea"))
         };
     }
 
@@ -318,13 +422,14 @@ public class QuestionData
     public bool allowsMultiple;
 
     [Header("Per-question character art")]
+    public Sprite template;
     public Sprite headSprite;
     public Sprite eyesSprite;
     public Sprite bodySprite;
     public List<Sprite> hairSprites;
 
     public QuestionData(string text, List<string> answers, bool allowsMultiple,
-                        Sprite head = null, Sprite eyes = null, Sprite body = null, List<Sprite> hairVariants = null)
+                        Sprite head = null, Sprite eyes = null, Sprite body = null, List<Sprite> hairVariants = null, Sprite template = null)
     {
         this.text = text;
         this.answers = answers;
@@ -333,6 +438,7 @@ public class QuestionData
         this.eyesSprite = eyes;
         this.bodySprite = body;
         this.hairSprites = hairVariants ?? new List<Sprite>();
+        this.template = template;
     }
 }
 
