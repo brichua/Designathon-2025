@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: d07152fd746aa664b96037603aa5071a
+guid: 45ed7b3885388a84d906625503f31754
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8117615680263970192
-    second: cough hair 5_0
+      213: -879121893076311359
+    second: cough hair 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cough hair 5_0
+      name: cough hair 1_0
       rect:
         serializedVersion: 2
         x: 0
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 09d5645c37097a070800000000000000
-      internalID: 8117615680263970192
+      spriteID: 1c2eae8cb4bbcc3f0800000000000000
+      internalID: -879121893076311359
       vertices: []
       indices: 
       edges: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: ce9ba944f50c68e4d9d00973c8e0a71a
+    spriteID: 56e0006bd11b2834197618b26c7d41bf
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      cough hair 5_0: 8117615680263970192
+      cough hair 1_0: -879121893076311359
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

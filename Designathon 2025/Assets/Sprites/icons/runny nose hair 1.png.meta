@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: d07152fd746aa664b96037603aa5071a
+guid: 49ded35e1201e1846bd95a77a6f96df4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8117615680263970192
-    second: cough hair 5_0
+      213: 871154886594385403
+    second: runny nose hair 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,23 +100,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cough hair 5_0
+      name: runny nose hair 1_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1920
-        height: 1080
+        x: 817
+        y: 546
+        width: 353
+        height: 293
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 09d5645c37097a070800000000000000
-      internalID: 8117615680263970192
+      spriteID: bf5ddc7f0c6f61c00800000000000000
+      internalID: 871154886594385403
       vertices: []
       indices: 
       edges: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: ce9ba944f50c68e4d9d00973c8e0a71a
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      cough hair 5_0: 8117615680263970192
+      runny nose hair 1_0: 871154886594385403
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

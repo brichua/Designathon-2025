@@ -103,12 +103,12 @@ TextureImporter:
       name: cough hair 7_0
       rect:
         serializedVersion: 2
-        x: 804
-        y: 598
-        width: 320
-        height: 249
+        x: 0
+        y: 0
+        width: 1920
+        height: 1080
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 9db95fbdd8751f14c951450e7a94d8cc
     internalID: 0
     vertices: []
     indices: 

@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: d07152fd746aa664b96037603aa5071a
+guid: 730b7f3255427a24287c8a6acc35ae02
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8117615680263970192
-    second: cough hair 5_0
+      213: 118960617570221954
+    second: runny nose_0
+  - first:
+      213: -5713361807804184520
+    second: runny nose_1
+  - first:
+      213: 5115344028456801550
+    second: runny nose_2
+  - first:
+      213: 4583064260996160995
+    second: runny nose_3
+  - first:
+      213: 193726189628912208
+    second: runny nose_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,23 +112,111 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cough hair 5_0
+      name: runny nose_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1920
-        height: 1080
+        x: 961
+        y: 702
+        width: 26
+        height: 12
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 09d5645c37097a070800000000000000
-      internalID: 8117615680263970192
+      spriteID: 28fb8882d02a6a100800000000000000
+      internalID: 118960617570221954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runny nose_1
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 700
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8384c8cd4bf06b0b0800000000000000
+      internalID: -5713361807804184520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runny nose_2
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 492
+        width: 248
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e055518aa4a5df640800000000000000
+      internalID: 5115344028456801550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runny nose_3
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 669
+        width: 39
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3edd67bc9a05a9f30800000000000000
+      internalID: 4583064260996160995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runny nose_4
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 657
+        width: 43
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 052758c61f040b200800000000000000
+      internalID: 193726189628912208
       vertices: []
       indices: 
       edges: []
@@ -125,7 +225,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: ce9ba944f50c68e4d9d00973c8e0a71a
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +235,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      cough hair 5_0: 8117615680263970192
+      runny nose_0: 118960617570221954
+      runny nose_1: -5713361807804184520
+      runny nose_2: 5115344028456801550
+      runny nose_3: 4583064260996160995
+      runny nose_4: 193726189628912208
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
