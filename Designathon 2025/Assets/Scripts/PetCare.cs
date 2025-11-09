@@ -17,10 +17,13 @@ public class PetCare : MonoBehaviour
     public GameObject tool;
     public Sprite[] toolSprites;
     public TextMeshProUGUI instructions;
+    public GameObject instructionObj;
+
     [SerializeField] int toolIndex;
     [TextArea][SerializeField] string[] toolDescriptions;
     public GameObject sneeze;
     public GameObject runnyNose;
+    public GameObject symptomObject;
 
     [SerializeField] Character_Manager characterManager;
 
@@ -60,13 +63,12 @@ public class PetCare : MonoBehaviour
         
         characterTransform.position = new Vector3(-7, 0, 0);
         petTransform.position = new Vector3(-7, 2, 0);
+        symptomObject.SetActive(false);
         character.SetActive(true);
         pet.SetActive(true);
         
         StartCoroutine(moveToPosition(characterTransform, new Vector3(-1, 0, 0), 1));
         StartCoroutine(moveToPosition(petTransform, new Vector3(6, 2, 0), 1));
-        
-        instructions.text = "Let's help your pet feel better!";
     }
 
     private IEnumerator moveToPosition(Transform transform, Vector3 endPosition, float duration)
@@ -85,6 +87,8 @@ public class PetCare : MonoBehaviour
         transform.position = endPosition;
 
         tool.SetActive(true);
+        instructionObj.SetActive(true);
+        instructions.text = "Let's help your pet feel better!";
         
         selectTool();
 
