@@ -21,9 +21,13 @@ public class PetCare : MonoBehaviour
     [TextArea][SerializeField] string[] toolDescriptions;
     public GameObject sneeze;
     public GameObject runnyNose;
+
+    [SerializeField] Character_Manager characterManager;
+
     void Start()
     {
         toolIndex = -1;
+        characterManager = GetComponent<Character_Manager>();
     }
 
     void Update()
@@ -32,7 +36,10 @@ public class PetCare : MonoBehaviour
     }
 
     public void finishCare(){
+        characterManager.shiftSprite(characterManager.bodyParts[5], 1);
         instructions.text = "Your pet's feeling a lot better and soon a doctor will help you feel better too!";
+
+
     }
 
     public void startCare(){
@@ -84,7 +91,24 @@ public class PetCare : MonoBehaviour
     }
 
     public void selectTool(){
+        if(toolIndex == 3)
+        {
+            characterManager.shiftSprite(characterManager.bodyParts[5], 0);
+            sneeze.SetActive(false);
+            runnyNose.SetActive(false);
+
+        }
         toolIndex++;
+        if(toolIndex == 2 && !questionnaire.report.hasPain)
+        {
+            toolIndex++;
+        }
+        if(toolIndex == 3 && !questionnaire.report.feelHot && !questionnaire.report.hasCoughed && !questionnaire.report.runnyNose
+            && !questionnaire.report.hasVomited && !questionnaire.report.itchyEyes && !questionnaire.report.runnyEyes)
+        {
+            toolIndex++;
+        }
+        
         if(toolIndex >= toolSprites.Length)
         {
             tool.GetComponent<Transform>().position = new Vector3(0, 0, 0);
