@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "192213115359",
+    "project_id": "designathon-2025",
+    "storage_bucket": "designathon-2025.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:192213115359:android:735166e4d44e796793246a",
+        "android_client_info": {
+          "package_name": "com.company.designathon"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAW0pYJ_ybor12a1O71VNgamUqEn9SukI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

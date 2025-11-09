@@ -1,6 +1,10 @@
 using NUnit.Framework;
 using UnityEngine;
 using System.Collections.Generic;
+using Firebase;
+using Firebase.Analytics;
+using Firebase.Firestore;
+
 
 public class Character_Manager : MonoBehaviour
 {
@@ -12,6 +16,13 @@ public class Character_Manager : MonoBehaviour
 
     void Start()
     {
+        //var patientData = new PatientData
+        //{
+        //    Name = "Test",
+        //    Description = "Please work,"
+        //};
+        //var firestore = FirebaseFirestore.DefaultInstance;
+        //firestore.Document("Users/NewUser").SetAsync(patientData);
 
         foreach(BodyPart part in bodyParts)
         {
