@@ -35,6 +35,9 @@ public class Questionnaire : MonoBehaviour
 
     public AudioSource audioSource;
     public AudioClip sfxClip;
+    
+    public TMP_InputField petInputField;
+    public TextMeshProUGUI errorMessageText;
 
     private int currentQuestionIndex = 0;
     private Stack<int> questionHistory = new Stack<int>();
@@ -364,6 +367,14 @@ public class Questionnaire : MonoBehaviour
 
     public void OnSubmit()
     {
+        if (petInputField != null && string.IsNullOrWhiteSpace(petInputField.text))
+            {
+                Debug.Log("No pet name");
+                if (errorMessageText != null)
+                    errorMessageText.text = "Please enter a pet name to proceed :)";
+                return;
+            }
+            string petName = petInputField.text.Trim();
         report = new PatientReport();
 
         foreach (var pair in selectedAnswers)

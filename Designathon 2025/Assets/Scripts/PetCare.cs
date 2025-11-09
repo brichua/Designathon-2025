@@ -18,6 +18,7 @@ public class PetCare : MonoBehaviour
     public Sprite[] toolSprites;
     public TextMeshProUGUI instructions;
     public GameObject instructionObj;
+    public TMP_InputField petInputField;
 
     [SerializeField] int toolIndex;
     [TextArea][SerializeField] string[] toolDescriptions;
@@ -73,6 +74,10 @@ public class PetCare : MonoBehaviour
     }
 
     public void startCare(){
+        if (petInputField != null && string.IsNullOrWhiteSpace(petInputField.text))
+            {
+                return;
+            }
         StartCoroutine(eggHatch());
     }
 

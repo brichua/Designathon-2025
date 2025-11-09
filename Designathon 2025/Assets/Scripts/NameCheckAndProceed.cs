@@ -39,11 +39,14 @@ public class NameCheckAndProceed : MonoBehaviour
             // Show an error message to the user
             if (errorMessageText != null) 
             {    
-                errorMessageText.text = "Please enter your name first :)";
+                errorMessageText.text = "Please enter your name name first :)";
             }
 
             return; // Stop execution if the name is empty
         }
+
+        // If both checks pass, proceed
+        patientName = nameInputField.text.Trim();
 
         // If the checks pass, proceed:
         // 1. Activate the White Box Image, making it visible.
