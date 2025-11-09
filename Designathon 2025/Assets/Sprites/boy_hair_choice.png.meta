@@ -1,25 +1,34 @@
 fileFormatVersion: 2
-guid: c8e2fde6106565747bdb1b63535fa6e7
+guid: a6f3340307d516c4cbf0de84c2699884
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2782954237938814406
-    second: hoodie choice_0
+      213: -6689219302979415332
+    second: boy_hair_choice_0
   - first:
-      213: -766326801033887409
-    second: hoodie choice_1
+      213: -3346374787654933700
+    second: boy_hair_choice_1
   - first:
-      213: 1453259918419384335
-    second: hoodie choice_2
+      213: 1471743638217563986
+    second: boy_hair_choice_2
   - first:
-      213: 3084225546530895517
-    second: hoodie choice_3
+      213: -1764418173234744952
+    second: boy_hair_choice_3
   - first:
-      213: 6868014649024368363
-    second: hoodie choice_4
+      213: 4183053273948769854
+    second: boy_hair_choice_4
   - first:
-      213: -6778035168979806433
-    second: hoodie choice_5
+      213: 8752736949308976466
+    second: boy_hair_choice_5
+  - first:
+      213: -5043789958260084964
+    second: boy_hair_choice_6
+  - first:
+      213: 8139157638014827283
+    second: boy_hair_choice_7
+  - first:
+      213: 6341790995419075781
+    second: boy_hair_choice_8
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -111,17 +120,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: hoodie choice_0
+      name: boy_hair_choice_0
       rect:
         serializedVersion: 2
-        x: 849
-        y: 677
-        width: 234
-        height: 167
+        x: 814
+        y: 709
+        width: 187
+        height: 150
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,20 +152,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6cdc28a722a0f9620800000000000000
-      internalID: 2782954237938814406
+      spriteID: cd2d9352c7e1b23a0800000000000000
+      internalID: -6689219302979415332
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hoodie choice_1
+      name: boy_hair_choice_1
       rect:
         serializedVersion: 2
-        x: 1169
-        y: 678
-        width: 234
-        height: 167
+        x: 1051
+        y: 709
+        width: 187
+        height: 150
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,20 +174,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f41838aa5d57d55f0800000000000000
-      internalID: -766326801033887409
+      spriteID: c3321884cd94f81d0800000000000000
+      internalID: -3346374787654933700
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hoodie choice_2
+      name: boy_hair_choice_2
       rect:
         serializedVersion: 2
-        x: 1502
-        y: 676
-        width: 234
-        height: 167
+        x: 1296
+        y: 650
+        width: 197
+        height: 207
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,20 +196,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f0853b332340b2410800000000000000
-      internalID: 1453259918419384335
+      spriteID: 25f16649a0fac6410800000000000000
+      internalID: 1471743638217563986
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hoodie choice_3
+      name: boy_hair_choice_3
       rect:
         serializedVersion: 2
-        x: 848
-        y: 450
-        width: 234
-        height: 167
+        x: 1559
+        y: 634
+        width: 187
+        height: 218
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -196,20 +218,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d96b82c2bce5dca20800000000000000
-      internalID: 3084225546530895517
+      spriteID: 881791d05078387e0800000000000000
+      internalID: -1764418173234744952
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hoodie choice_4
+      name: boy_hair_choice_4
       rect:
         serializedVersion: 2
-        x: 1168
-        y: 451
-        width: 234
-        height: 167
+        x: 890
+        y: 466
+        width: 117
+        height: 116
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -218,20 +240,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: beec64b5fe6105f50800000000000000
-      internalID: 6868014649024368363
+      spriteID: e3e40463ac03d0a30800000000000000
+      internalID: 4183053273948769854
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hoodie choice_5
+      name: boy_hair_choice_5
       rect:
         serializedVersion: 2
-        x: 1501
-        y: 449
-        width: 234
-        height: 167
+        x: 1070
+        y: 463
+        width: 117
+        height: 116
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -240,8 +262,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f179ad5ece49fe1a0800000000000000
-      internalID: -6778035168979806433
+      spriteID: 25d6ff3a1e7f77970800000000000000
+      internalID: 8752736949308976466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_hair_choice_6
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 460
+        width: 117
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1fa93091cbd00ab0800000000000000
+      internalID: -5043789958260084964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_hair_choice_7
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 457
+        width: 117
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31bf7c8afb814f070800000000000000
+      internalID: 8139157638014827283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_hair_choice_8
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 454
+        width: 117
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c499b16f41920850800000000000000
+      internalID: 6341790995419075781
       vertices: []
       indices: 
       edges: []
@@ -260,12 +348,15 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      hoodie choice_0: 2782954237938814406
-      hoodie choice_1: -766326801033887409
-      hoodie choice_2: 1453259918419384335
-      hoodie choice_3: 3084225546530895517
-      hoodie choice_4: 6868014649024368363
-      hoodie choice_5: -6778035168979806433
+      boy_hair_choice_0: -6689219302979415332
+      boy_hair_choice_1: -3346374787654933700
+      boy_hair_choice_2: 1471743638217563986
+      boy_hair_choice_3: -1764418173234744952
+      boy_hair_choice_4: 4183053273948769854
+      boy_hair_choice_5: 8752736949308976466
+      boy_hair_choice_6: -5043789958260084964
+      boy_hair_choice_7: 8139157638014827283
+      boy_hair_choice_8: 6341790995419075781
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

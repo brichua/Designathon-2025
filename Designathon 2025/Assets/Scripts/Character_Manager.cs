@@ -14,6 +14,8 @@ public class Character_Manager : MonoBehaviour
     [SerializeField]
     BodyPart[] bodyParts;
 
+    public bool isMale = true;
+
     void Start()
     {
         //var patientData = new PatientData
@@ -61,5 +63,18 @@ public class Character_Manager : MonoBehaviour
     {
         part.color = color;
         part.color.a = 1;
+    }
+
+    public void changeGender(bool changeToMale)
+    {
+        isMale = changeToMale;
+        if (isMale)
+        {
+            bodyParts[3].currentSprite = 0;
+        }
+        else
+        {
+            bodyParts[3].currentSprite = 3;
+        }
     }
 }
