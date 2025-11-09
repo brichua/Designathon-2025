@@ -50,7 +50,7 @@ public class Questionnaire : MonoBehaviour
         submitButton.gameObject.SetActive(false);
     }
 
-    void UpdateCharacterIcon(QuestionData q)
+    public void UpdateCharacterIcon(QuestionData q)
     {
         if (characterManager == null) return;
 
@@ -99,7 +99,7 @@ public class Questionnaire : MonoBehaviour
                 allowsMultiple:true,
                 head: Resources.Load<Sprite>("dizzy face"),
                 body: Resources.Load<Sprite>("dizzy hoodie"),
-                eyes: Resources.Load<Sprite>("transparent"),
+                eyes: Resources.Load<Sprite>("dizzy eye"),
                 hairVariants: new List<Sprite>
                 {
                     Resources.Load<Sprite>("dizzy hair 7"),
@@ -304,18 +304,24 @@ public class Questionnaire : MonoBehaviour
                 List<QuestionData> followUps = new List<QuestionData>();
                 foreach (int i in selectedPainIndices)
                 {
-                    string bodyPart = questions[0].answers[i]
+                    string fullAnswer = questions[0].answers[i];
+                    if (fullAnswer.Contains("hurts") && fullAnswer.Contains("Yes"))
+                    {
+                        string bodyPart = questions[0].answers[i]
                         .Replace("Yes, my ", "")
                         .Replace(" hurts", "");
 
-                    followUps.Add(new QuestionData(
-                        $"How does the pain in your {bodyPart} feel on a scale of 1–5?",
-                        new List<string> { "1", "2", "3", "4", "5" },
-                        allowsMultiple:false
-                    ));
+                        followUps.Add(new QuestionData(
+                            $"How does the pain in your {bodyPart} feel on a scale of 1–5?",
+                            new List<string> { "1", "2", "3", "4", "5" },
+                            allowsMultiple: false
+                        ));
+                    }
                 }
-
-                questions.InsertRange(1, followUps);
+                if (followUps.Count > 0) // Only insert if we created valid follow-ups
+                {
+                    questions.InsertRange(1, followUps);
+                }
             }
         }
 

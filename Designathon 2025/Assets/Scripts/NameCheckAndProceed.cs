@@ -53,6 +53,23 @@ public class NameCheckAndProceed : MonoBehaviour
         nextButton.SetActive(false);
         nextButton2.SetActive(true);
         petNameInput.SetActive(true);
+        questionnaire.UpdateCharacterIcon(new QuestionData("Do you feel pain anywhere?",
+                new List<string>{ "Yes, my head hurts", "Yes, my arm hurts", "Yes, my legs hurt", "Yes, my stomach hurts", "Yes, something hurts", "No, I feel fine everywhere" },
+                allowsMultiple:true,
+                head: Resources.Load<Sprite>("dizzy face"),
+                body: Resources.Load<Sprite>("dizzy hoodie"),
+                eyes: Resources.Load<Sprite>("dizzy eye"),
+                hairVariants: new List<Sprite>
+                {
+                    Resources.Load<Sprite>("dizzy hair 7"),
+                    Resources.Load<Sprite>("dizzy hair 6"),
+                    Resources.Load<Sprite>("dizzy hair 5"),
+                    Resources.Load<Sprite>("dizzy hair 4"),
+                    Resources.Load<Sprite>("dizzy hair 3"),
+                    Resources.Load<Sprite>("dizzy hair 2"),
+                    Resources.Load<Sprite>("dizzy hair 1"),
+                },
+                template : Resources.Load<Sprite>("dizzy")));
 
         Debug.Log($"Name entered: {nameInputField.text}. White Box is now visible.");
     }
