@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bodyPart: Eyes
   allSprites:
-  - {fileID: 6883166651137136220, guid: a2e310dea57228f4ab5c45b411caabe7, type: 3}
+  - {fileID: -5718673558459719356, guid: 1f46f70501ecbef4b9985ef8f7afd82e, type: 3}
   currentSprite: 0
-  color: {r: 0.5294118, g: 0.5254902, b: 0.5294118, a: 0}
+  color: {r: 0.93725497, g: 0.75294125, b: 1, a: 1}

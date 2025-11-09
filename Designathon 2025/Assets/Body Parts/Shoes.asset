@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bodyPart: Shoes
   allSprites:
-  - {fileID: 7993213939894629566, guid: 783db46e627c00a43921755d6a1e6a2a, type: 3}
+  - {fileID: -5060005912101823278, guid: 65fd0f7f7301e58449dfddf874ec8adf, type: 3}
   currentSprite: 0
-  color: {r: 1, g: 1, b: 1, a: 1}
+  color: {r: 1, g: 0.9843138, b: 0.6901961, a: 1}
