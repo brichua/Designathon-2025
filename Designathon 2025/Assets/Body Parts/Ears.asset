@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a09c44dca0bb2341b707ce6d71d1d36, type: 3}
   m_Name: Ears
   m_EditorClassIdentifier: 
-  bodyPart: Pet_Head
+  bodyPart: Ears
   allSprites:
   - {fileID: -6212272807418747092, guid: 37800db4d6aae57449bce4c71bed06dc, type: 3}
   - {fileID: -8274973109642216326, guid: 52c1826b5ead4154ab1cad6cacdd472d, type: 3}
