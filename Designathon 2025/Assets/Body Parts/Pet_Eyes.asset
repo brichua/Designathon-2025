@@ -18,5 +18,6 @@ MonoBehaviour:
   - {fileID: 1558902253802734940, guid: 66ff2bfe8bc06c5449bce1a8af24d110, type: 3}
   - {fileID: -344066135659401998, guid: 5c1c25aae5b48074f8c2caa3bdebcea4, type: 3}
   - {fileID: -2193558663904371745, guid: ec3d0bdf20478334ea27061bc65e4d55, type: 3}
+  - {fileID: -75820318653789389, guid: cd45512db85479e4b8b285b9749a2000, type: 3}
   currentSprite: 0
   color: {r: 1, g: 1, b: 1, a: 1}
