@@ -621,6 +621,7 @@ GameObject:
   - component: {fileID: 33303311}
   - component: {fileID: 33303312}
   - component: {fileID: 33303313}
+  - component: {fileID: 33303314}
   m_Layer: 0
   m_Name: Pet
   m_TagString: Pet
@@ -744,6 +745,22 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &33303314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 33303309}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6eb8d8e040b9fe4ca909abf4a123c25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uiManager: {fileID: 0}
+  questionnaire: {fileID: 0}
+  sneeze: {fileID: 0}
+  runnyNose: {fileID: 0}
 --- !u!1001 &41850013
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5741,6 +5758,7 @@ GameObject:
   - component: {fileID: 841653953}
   - component: {fileID: 841653952}
   - component: {fileID: 841653951}
+  - component: {fileID: 841653954}
   m_Layer: 0
   m_Name: Character
   m_TagString: Untagged
@@ -5845,6 +5863,22 @@ Transform:
   - {fileID: 1167205074}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &841653954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 841653950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6eb8d8e040b9fe4ca909abf4a123c25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uiManager: {fileID: 954941177}
+  questionnaire: {fileID: 0}
+  sneeze: {fileID: 1805875618}
+  runnyNose: {fileID: 498982757}
 --- !u!1001 &865532368
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6093,6 +6127,9 @@ MonoBehaviour:
   personNameBox: {fileID: 0}
   character: {fileID: 0}
   nextButton: {fileID: 0}
+  nextButton2: {fileID: 0}
+  petNameInput: {fileID: 0}
+  questionnaire: {fileID: 0}
 --- !u!224 &954941179
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8520,6 +8557,7 @@ MonoBehaviour:
     Don't worry it won't hurt.
   sneeze: {fileID: 1805875618}
   runnyNose: {fileID: 498982757}
+  characterManager: {fileID: 841653952}
 --- !u!4 &1393439595
 Transform:
   m_ObjectHideFlags: 0

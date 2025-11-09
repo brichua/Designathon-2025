@@ -83,11 +83,40 @@ public class PetManager : MonoBehaviour
         {
             characterManager.shiftSprite(characterManager.bodyParts[3], 0);
         }
+
+        for(int i = 0; i< characterManager.bodyParts.Length; i++)
+        {
+            characterManager.bodyParts[i].color = GetPetColor(patientReport);
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
         
+    }
+
+    Color GetPetColor(PatientReport report)
+    {
+        // Priority logic: severe first
+        if (report.hasPain && (report.hurtBreathe || report.hurtWalk))
+            return new Color(0.5f, 0f, 0f); // maroon
+        if (report.hurtBreathe || report.hasCoughed)
+            return new Color(0.12f, 0.56f, 1f); // dodger blue
+        if (report.feelHot || report.feelUncomfortable)
+            return new Color(1f, 0.55f, 0f); // dark orange
+        if (report.hasVomited || report.painStomach)
+            return new Color(1f, 0.84f, 0f); // gold
+        if (report.feelTired || report.feelDizzy)
+            return new Color(0.58f, 0.44f, 0.86f); // medium purple
+        if (report.skinItchy || report.itchyEyes || report.itchyNose)
+            return new Color(1f, 0.71f, 0.76f); // light pink
+        if (report.hardToSee || report.hardToHear)
+            return new Color(0.44f, 0.5f, 0.56f); // slate gray
+        if (report.hasPain)
+            return new Color(1f, 0.42f, 0.42f); // soft red
+
+        // Default: healthy green
+        return new Color(0.49f, 0.99f, 0f); // lawn green
     }
 }
