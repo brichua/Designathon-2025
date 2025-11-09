@@ -618,13 +618,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 33303310}
+  - component: {fileID: 33303311}
   m_Layer: 0
   m_Name: Pet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &33303310
 Transform:
   m_ObjectHideFlags: 0
@@ -647,6 +648,27 @@ Transform:
   - {fileID: 837648140}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &33303311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 33303309}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7eaa3be72c456e14585c4d1cd1cb0561, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bodyContainers: []
+  bodyParts:
+  - {fileID: 11400000, guid: 17e2588af216a56468cd4b71ef4483a6, type: 2}
+  - {fileID: 11400000, guid: f2659d0bb8467704086b9548d1891c81, type: 2}
+  - {fileID: 11400000, guid: 998e26b300d204742a60eaaba6665db5, type: 2}
+  - {fileID: 11400000, guid: 5484237d2f32d0f4d823798c57b0fb80, type: 2}
+  - {fileID: 11400000, guid: 415d117f0b49e5c489a937563d077ee4, type: 2}
+  - {fileID: 11400000, guid: 8b482c6030f88d94bb003e555bfdc814, type: 2}
+  isMale: 1
 --- !u!1001 &41850013
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2070,7 +2092,7 @@ GameObject:
   - component: {fileID: 319373546}
   - component: {fileID: 319373547}
   m_Layer: 0
-  m_Name: Tails
+  m_Name: Tail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6396,7 +6418,7 @@ GameObject:
   - component: {fileID: 1040725592}
   - component: {fileID: 1040725593}
   m_Layer: 0
-  m_Name: Head
+  m_Name: Pet_Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6483,7 +6505,7 @@ GameObject:
   - component: {fileID: 1047490154}
   - component: {fileID: 1047490155}
   m_Layer: 0
-  m_Name: Body
+  m_Name: Pet_Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9962,7 +9984,7 @@ GameObject:
   - component: {fileID: 1662473540}
   - component: {fileID: 1662473541}
   m_Layer: 0
-  m_Name: Eyes
+  m_Name: Pet_Eyes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12320,7 +12342,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2139248011
 Transform:
   m_ObjectHideFlags: 0
