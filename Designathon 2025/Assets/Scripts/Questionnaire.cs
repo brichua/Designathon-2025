@@ -50,7 +50,7 @@ public class Questionnaire : MonoBehaviour
         submitButton.gameObject.SetActive(false);
     }
 
-    void UpdateCharacterIcon(QuestionData q)
+    public void UpdateCharacterIcon(QuestionData q)
     {
         if (characterManager == null) return;
 
@@ -99,7 +99,7 @@ public class Questionnaire : MonoBehaviour
                 allowsMultiple:true,
                 head: Resources.Load<Sprite>("dizzy face"),
                 body: Resources.Load<Sprite>("dizzy hoodie"),
-                eyes: Resources.Load<Sprite>("transparent"),
+                eyes: Resources.Load<Sprite>("dizzy eye"),
                 hairVariants: new List<Sprite>
                 {
                     Resources.Load<Sprite>("dizzy hair 7"),
