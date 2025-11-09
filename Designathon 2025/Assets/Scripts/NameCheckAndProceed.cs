@@ -12,7 +12,7 @@ public class NameCheckAndProceed : MonoBehaviour
     public TMP_InputField nameInputField; // The box where the user types
     public GameObject whiteBoxImage;      // The sprite box to show
     public TextMeshProUGUI errorMessageText;
-    //public TextMeshProUGUI nameText;
+    public GameObject personNameBox;
 
     // --- Method called by the Next Button ---
     public void OnNextButtonClicked()
@@ -43,6 +43,7 @@ public class NameCheckAndProceed : MonoBehaviour
         whiteBoxImage.SetActive(true);
         errorMessageText.text = null; // Clear any previous error message
         nameInputField.text = null; // Clear input field if needed
+        personNameBox.SetActive(false); // Hide the name input box
 
         Debug.Log($"Name entered: {nameInputField.text}. White Box is now visible.");
     }
