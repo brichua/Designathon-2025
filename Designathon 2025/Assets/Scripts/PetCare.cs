@@ -24,6 +24,7 @@ public class PetCare : MonoBehaviour
     public GameObject sneeze;
     public GameObject runnyNose;
     public GameObject symptomObject;
+    public GameObject speechBubble;
 
     [SerializeField] Character_Manager characterManager;
     [SerializeField] PetManager petManager;
@@ -72,8 +73,8 @@ public class PetCare : MonoBehaviour
         yield return new WaitForSeconds(0.25f);
         egg.SetActive(false);
         
-        characterTransform.position = new Vector3(-7, 0, 0);
-        petTransform.position = new Vector3(-7, 2, 0);
+        characterTransform.position = new Vector3(-7, -1, 0);
+        petTransform.position = new Vector3(-7, -0.75f, 0);
         symptomObject.SetActive(false);
         character.SetActive(true);
         pet.SetActive(true);
@@ -99,6 +100,7 @@ public class PetCare : MonoBehaviour
         transform.position = endPosition;
 
         tool.SetActive(true);
+        speechBubble.SetActive(true);
         instructionObj.SetActive(true);
         instructions.text = "Let's help your pet feel better!";
         
