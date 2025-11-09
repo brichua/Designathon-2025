@@ -22,4 +22,4 @@ MonoBehaviour:
   - {fileID: 8961728511413943735, guid: 324032a6817d68245add1eaa607354d6, type: 3}
   - {fileID: 67195400984536643, guid: b34fee1117d0fe543a29644f23a4157b, type: 3}
   currentSprite: 0
-  color: {r: 0.9960785, g: 0.9960785, b: 0.9960785, a: 0}
+  color: {r: 1, g: 1, b: 1, a: 1}
