@@ -1376,6 +1376,8 @@ MonoBehaviour:
   nameManager: {fileID: 954941178}
   audioSource: {fileID: 499557369}
   sfxClip: {fileID: 8300000, guid: 300c03686ac491145ae706dec5fcf56a, type: 3}
+  petInputField: {fileID: 441044974}
+  errorMessageText: {fileID: 458838480}
   report:
     hasPain: 0
     painHead: 0
@@ -4046,7 +4048,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 4278190335
-  m_fontColor: {r: 1, g: 0, b: 0, a: 1}
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -6879,6 +6881,7 @@ MonoBehaviour:
   - {fileID: 6431411865064961294, guid: 51972500700d07149b2b6fe028ef5062, type: 3}
   instructions: {fileID: 1661817542}
   instructionObj: {fileID: 1661817540}
+  petInputField: {fileID: 441044974}
   toolIndex: 0
   toolDescriptions:
   - Let's take your pet's temperature! Drag the thermometer to your pet!
