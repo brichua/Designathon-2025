@@ -41,6 +41,7 @@ public class NameCheckAndProceed : MonoBehaviour
         // 1. Activate the White Box Image, making it visible.
         whiteBoxImage.SetActive(true);
         errorMessageText.text = null; // Clear any previous error message
+        nameInputField = null; // Optionally clear the reference to the input field
 
         Debug.Log($"Name entered: {nameInputField.text}. White Box is now visible.");
     }
