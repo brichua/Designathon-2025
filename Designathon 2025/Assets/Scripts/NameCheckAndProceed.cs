@@ -12,6 +12,7 @@ public class NameCheckAndProceed : MonoBehaviour
     public TMP_InputField nameInputField; // The box where the user types
     public GameObject whiteBoxImage;      // The sprite box to show
     public TextMeshProUGUI errorMessageText;
+    //public TextMeshProUGUI nameText;
 
     // --- Method called by the Next Button ---
     public void OnNextButtonClicked()
@@ -41,7 +42,7 @@ public class NameCheckAndProceed : MonoBehaviour
         // 1. Activate the White Box Image, making it visible.
         whiteBoxImage.SetActive(true);
         errorMessageText.text = null; // Clear any previous error message
-        nameInputField = null; // Optionally clear the reference to the input field
+        nameInputField.text = null; // Clear input field if needed
 
         Debug.Log($"Name entered: {nameInputField.text}. White Box is now visible.");
     }
