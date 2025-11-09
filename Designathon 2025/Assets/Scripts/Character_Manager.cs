@@ -46,10 +46,7 @@ public class Character_Manager : MonoBehaviour
             partRenderer.sprite = bodyParts[i].allSprites[bodyParts[i].currentSprite];
             partRenderer.color = bodyParts[i].color;
         }
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            shiftSprite(bodyParts[0], 0);
-        }
+    
     }
 
     public void shiftSprite(BodyPart part, int listPos)

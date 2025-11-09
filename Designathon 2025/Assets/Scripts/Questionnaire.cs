@@ -38,12 +38,12 @@ public class Questionnaire : MonoBehaviour
     private Dictionary<int, List<int>> selectedAnswers = new Dictionary<int, List<int>>();
 
     public PatientReport report = new PatientReport();
-
+    public PetManager petManager;
     private void Start()
     {
         InitializeQuestions();
         ShowQuestion(0);
-
+        
         nextButton.onClick.AddListener(OnNext);
         backButton.onClick.AddListener(OnBack);
         submitButton.onClick.AddListener(OnSubmit);
@@ -422,6 +422,8 @@ public class Questionnaire : MonoBehaviour
 
         PatientDataUploader.UploadPatientData(patientName, report, isMale);
     }
+    
+    
 }
 
 [System.Serializable]
