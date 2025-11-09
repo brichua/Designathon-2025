@@ -4738,7 +4738,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4759,7 +4759,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -1
-  m_Sprite: {fileID: -4364034832326165938, guid: 0ce24f478f85a1343b91e3185d21c075, type: 3}
+  m_Sprite: {fileID: 1809562208954038553, guid: 93a83cf8169b60d44a4b478c2e478a19, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0.23921569}
   m_FlipX: 0
   m_FlipY: 0
@@ -6472,6 +6472,14 @@ PrefabInstance:
       propertyPath: audioSource
       value: 
       objectReference: {fileID: 499557369}
+    - target: {fileID: -2193557376179159167, guid: 9d6eb200304877241ad05105f5a553ba, type: 3}
+      propertyPath: spawnParent
+      value: 
+      objectReference: {fileID: 585713061}
+    - target: {fileID: -2193557376179159167, guid: 9d6eb200304877241ad05105f5a553ba, type: 3}
+      propertyPath: floatingImagePrefab
+      value: 
+      objectReference: {fileID: 8661294294892046842, guid: 7fcfc707e7da17f46a5c01af9df8acec, type: 3}
     - target: {fileID: 5349979214086404665, guid: 9d6eb200304877241ad05105f5a553ba, type: 3}
       propertyPath: m_SortingOrder
       value: 4
@@ -7656,6 +7664,7 @@ MonoBehaviour:
   petNameInput: {fileID: 441044973}
   questionnaire: {fileID: 67948228}
   introText: {fileID: 785175933}
+  patientName: 
 --- !u!224 &954941179
 RectTransform:
   m_ObjectHideFlags: 0

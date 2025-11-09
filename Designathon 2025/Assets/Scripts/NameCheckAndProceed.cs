@@ -19,6 +19,7 @@ public class NameCheckAndProceed : MonoBehaviour
     public GameObject petNameInput;
     public Questionnaire questionnaire;
     public GameObject introText;
+    public string patientName;
 
     // --- Method called by the Next Button ---
     public void OnNextButtonClicked()
@@ -46,6 +47,7 @@ public class NameCheckAndProceed : MonoBehaviour
 
         // If the checks pass, proceed:
         // 1. Activate the White Box Image, making it visible.
+        patientName = nameInputField.text.Trim();
         whiteBoxImage.SetActive(true);
         errorMessageText.text = null; // Clear any previous error message
         nameInputField.text = null; // Clear input field if needed

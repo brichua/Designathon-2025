@@ -420,7 +420,7 @@ public class Questionnaire : MonoBehaviour
         }
 
         Debug.Log(JsonUtility.ToJson(report, true));
-        string patientName = nameManager.nameInputField.text;
+        string patientName = nameManager.patientName;
         bool isMale = characterManager.isMale;
 
         if (audioSource != null && sfxClip != null)
