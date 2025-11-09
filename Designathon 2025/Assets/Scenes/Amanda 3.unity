@@ -5009,10 +5009,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6eb8d8e040b9fe4ca909abf4a123c25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  uiManager: {fileID: 954941177}
+  questionnaireManager: {fileID: 67948226}
   questionnaire: {fileID: 67948228}
   sneeze: {fileID: 1620001243}
   runnyNose: {fileID: 741894744}
+  bodyParts:
+  - {fileID: 11400000, guid: 17e2588af216a56468cd4b71ef4483a6, type: 2}
+  - {fileID: 11400000, guid: f2659d0bb8467704086b9548d1891c81, type: 2}
+  - {fileID: 11400000, guid: 998e26b300d204742a60eaaba6665db5, type: 2}
+  - {fileID: 11400000, guid: 5484237d2f32d0f4d823798c57b0fb80, type: 2}
+  - {fileID: 11400000, guid: 415d117f0b49e5c489a937563d077ee4, type: 2}
+  - {fileID: 11400000, guid: 8b482c6030f88d94bb003e555bfdc814, type: 2}
 --- !u!1 &613511878
 GameObject:
   m_ObjectHideFlags: 0
@@ -6507,8 +6514,8 @@ MonoBehaviour:
   - Uh oh, your pet has the sniffles. Feed them a little medicine.
   - Your pet needs a little shot for protection. Drag the flu shot over to them.
     Don't worry it won't hurt.
-  sneeze: {fileID: 0}
-  runnyNose: {fileID: 0}
+  sneeze: {fileID: 1620001243}
+  runnyNose: {fileID: 741894744}
   symptomObject: {fileID: 349682784}
   characterManager: {fileID: 841653952}
 --- !u!1001 &803558104
@@ -7278,7 +7285,7 @@ MonoBehaviour:
   nextButton: {fileID: 701374363}
   nextButton2: {fileID: 1506558205}
   petNameInput: {fileID: 441044973}
-  questionnaire: {fileID: 0}
+  questionnaire: {fileID: 67948228}
 --- !u!224 &954941179
 RectTransform:
   m_ObjectHideFlags: 0

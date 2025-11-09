@@ -31,18 +31,19 @@ public class Questionnaire : MonoBehaviour
 
     [Header("Character Data Source")]
     public Character_Manager characterManager;
+    
 
     private int currentQuestionIndex = 0;
     private List<QuestionData> questions = new List<QuestionData>();
     private Dictionary<int, List<int>> selectedAnswers = new Dictionary<int, List<int>>();
 
     public PatientReport report = new PatientReport();
-
+    public PetManager petManager;
     private void Start()
     {
         InitializeQuestions();
         ShowQuestion(0);
-
+        
         nextButton.onClick.AddListener(OnNext);
         backButton.onClick.AddListener(OnBack);
         submitButton.onClick.AddListener(OnSubmit);
@@ -417,7 +418,10 @@ public class Questionnaire : MonoBehaviour
 
         Debug.Log("✅ Patient report submitted!");
         Debug.Log(JsonUtility.ToJson(report, true));
+        petManager.nextButton();
     }
+    
+    
 }
 
 [System.Serializable]

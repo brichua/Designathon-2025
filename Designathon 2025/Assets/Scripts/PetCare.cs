@@ -26,6 +26,7 @@ public class PetCare : MonoBehaviour
     public GameObject symptomObject;
 
     [SerializeField] Character_Manager characterManager;
+    [SerializeField] PetManager petManager;
 
     void Start()
     {
@@ -39,13 +40,23 @@ public class PetCare : MonoBehaviour
     }
 
     public void finishCare(){
-        characterManager.shiftSprite(characterManager.bodyParts[5], 1);
+
+        PatientReport patientReport = questionnaire.report;
+        patientReport.hasPain = false;
+        patientReport.feelUncomfortable = false;
+        patientReport.hurtBreathe = false;
+        patientReport.hurtWalk = false;
+        patientReport.hasVomited = false;
+        patientReport.feelDizzy = false;
+        sneeze.SetActive(false);
+        runnyNose.SetActive(false);
         instructions.text = "Your pet's feeling a lot better and soon a doctor will help you feel better too!";
 
 
     }
 
     public void startCare(){
+        petManager.nextButton();
         StartCoroutine(eggHatch());
     }
 
@@ -69,6 +80,7 @@ public class PetCare : MonoBehaviour
         
         StartCoroutine(moveToPosition(characterTransform, new Vector3(-1, 0, 0), 1));
         StartCoroutine(moveToPosition(petTransform, new Vector3(6, 2, 0), 1));
+        selectTool();
     }
 
     private IEnumerator moveToPosition(Transform transform, Vector3 endPosition, float duration)
@@ -90,14 +102,20 @@ public class PetCare : MonoBehaviour
         instructionObj.SetActive(true);
         instructions.text = "Let's help your pet feel better!";
         
-        selectTool();
+        
 
     }
 
     public void selectTool(){
         if(toolIndex == 3)
         {
-            characterManager.shiftSprite(characterManager.bodyParts[5], 0);
+            PatientReport patientReport = questionnaire.report;
+            patientReport.hasPain = false;
+            patientReport.feelUncomfortable = false;
+            patientReport.hurtBreathe = false;
+            patientReport.hurtWalk = false;
+            patientReport.hasVomited = false;
+            patientReport.feelDizzy = false;
             sneeze.SetActive(false);
             runnyNose.SetActive(false);
 
