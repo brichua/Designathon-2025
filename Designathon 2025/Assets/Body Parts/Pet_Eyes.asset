@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a09c44dca0bb2341b707ce6d71d1d36, type: 3}
+  m_Name: Pet_Eyes
+  m_EditorClassIdentifier: 
+  bodyPart: Pet_Eyes
+  allSprites:
+  - {fileID: -7486879452458109866, guid: 46946e0a3eca43948a2a802578b14aca, type: 3}
+  - {fileID: 1558902253802734940, guid: 66ff2bfe8bc06c5449bce1a8af24d110, type: 3}
+  - {fileID: -344066135659401998, guid: 5c1c25aae5b48074f8c2caa3bdebcea4, type: 3}
+  - {fileID: -2193558663904371745, guid: ec3d0bdf20478334ea27061bc65e4d55, type: 3}
+  currentSprite: 0
+  color: {r: 1, g: 1, b: 1, a: 1}

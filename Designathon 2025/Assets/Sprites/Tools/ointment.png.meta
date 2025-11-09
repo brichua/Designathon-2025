@@ -1,13 +1,13 @@
 fileFormatVersion: 2
-guid: 37800db4d6aae57449bce4c71bed06dc
+guid: 74c09920229253f43af2848a18230d97
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6212272807418747092
-    second: pointyEars_0
+      213: 8390573174251814727
+    second: ointment_0
   - first:
-      213: 5166502982218160935
-    second: pointyEars_1
+      213: 3736283775834962698
+    second: ointment_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -116,35 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pointyEars_0
+      name: ointment_0
       rect:
         serializedVersion: 2
-        x: 79
-        y: 340
-        width: 320
-        height: 181
-      alignment: 9
-      pivot: {x: 0.50000006, y: 0.59011}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c27acf1bbc299c9a0800000000000000
-      internalID: -6212272807418747092
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pointyEars_1
-      rect:
-        serializedVersion: 2
-        x: 246
-        y: 362
-        width: 141
-        height: 153
+        x: 286
+        y: 313
+        width: 148
+        height: 184
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,8 +131,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 72b1c1ac61b13b740800000000000000
-      internalID: 5166502982218160935
+      spriteID: 74f7339c8dd417470800000000000000
+      internalID: 8390573174251814727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ointment_1
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 337
+        width: 131
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0bb2b66c42f9d330800000000000000
+      internalID: 3736283775834962698
       vertices: []
       indices: 
       edges: []
@@ -163,7 +163,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: c3117c2ee3198a046a5df9099bb10bf4
+    spriteID: 6483ebdc16645a442a6348fa8861526e
     internalID: 0
     vertices: []
     indices: 
@@ -173,8 +173,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      pointyEars_0: -6212272807418747092
-      pointyEars_1: 5166502982218160935
+      ointment_0: 8390573174251814727
+      ointment_1: 3736283775834962698
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

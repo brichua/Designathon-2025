@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a09c44dca0bb2341b707ce6d71d1d36, type: 3}
+  m_Name: Ears
+  m_EditorClassIdentifier: 
+  bodyPart: Pet_Head
+  allSprites:
+  - {fileID: -6212272807418747092, guid: 37800db4d6aae57449bce4c71bed06dc, type: 3}
+  - {fileID: -8274973109642216326, guid: 52c1826b5ead4154ab1cad6cacdd472d, type: 3}
+  - {fileID: 5894620844755436189, guid: c048400afe02c2f45b5d7721af407cd2, type: 3}
+  currentSprite: 0
+  color: {r: 1, g: 1, b: 1, a: 1}
