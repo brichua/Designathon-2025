@@ -26,7 +26,7 @@ public class Questionnaire : MonoBehaviour
     private List<QuestionData> questions = new List<QuestionData>();
     private Dictionary<int, List<int>> selectedAnswers = new Dictionary<int, List<int>>();
 
-    private PatientReport report = new PatientReport();
+    public PatientReport report = new PatientReport();
 
     private void Start()
     {

@@ -11,8 +11,8 @@ public class Character_Manager : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     [SerializeField] List<GameObject> bodyContainers = new List<GameObject>();
 
-    [SerializeField]
-    BodyPart[] bodyParts;
+    
+    public BodyPart[] bodyParts;
 
     public bool isMale = true;
 
