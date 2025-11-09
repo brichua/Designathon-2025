@@ -46,32 +46,20 @@ public class Character_Manager : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            shiftSprite(bodyParts[0], true);
+            shiftSprite(bodyParts[0], 0);
         }
     }
 
-    public void shiftSprite(BodyPart part, bool toRight)
+    public void shiftSprite(BodyPart part, int listPos)
     {
-        if (toRight)
-        {
-            part.currentSprite++;
-        }
-        else
-        {
-            part.currentSprite--;
-        }
-        if(part.currentSprite < 0) 
-        { 
-            part.currentSprite = part.allSprites.Length - 1;
-        }else if(part.currentSprite >= part.allSprites.Length) 
-        {
-            part.currentSprite = 0;
-        }
+        Debug.Log("Clicked!");
+        part.currentSprite = listPos;
 
     }
 
     public void changeColor(BodyPart part, Color color)
     {
         part.color = color;
+        part.color.a = 1;
     }
 }
